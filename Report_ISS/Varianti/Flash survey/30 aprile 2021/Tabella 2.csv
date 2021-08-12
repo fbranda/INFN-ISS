@@ -1,23 +1,23 @@
-Regione;Macroarea;Casi notificati al 13/05/2021;% casi nella macroarea;Ampiezza campionaria (p=5, epsilon=2%)
-Abruzzo;Sud;215;3,1%;14
-Basilicata;Sud;217;3,2%;14
-Calabria;Sud;560;8,2%;35
-Campania;Sud;2.224;32,4%;139
-Emilia-Romagna;Nord-Est;1.150;43,3%;169
-Friuli Venezia Giulia;Nord-Est;267;10,0%;40
-Lazio;Centro;1.330;44,7%;177
-Liguria;Nord-Ovest;407;9,1%;38
-Lombardia;Nord-Ovest;2.722;60,9%;253
-Marche;Centro;326;10,9%;44
-Molise;Sud;59;0,9%;4
-P.A. Bolzano;Nord-Est;39;1,5%;6
-P.A. Trento;Nord-Est;117;4,4%;18
-Piemonte;Nord-Ovest;1.264;28,3%;118
-Puglia;Sud;1.867;27,2%;117
-Sardegna;Isole;279;4,1%;18
-Sicilia;Isole;1.450;21,1%;91
-Toscana;Centro;1.206;40,5%;161
-Umbria;Centro;116;3,9%;16
-Valle d'Aosta;Nord-Ovest;74;1,7%;7
-Veneto;Nord-Est;1.085;40,8%;160
+Regione;Macroarea;Casi notificati al 15/04/2021;% casi nella macroarea;Ampiezza campionaria (p=5, epsilon=2%)
+Abruzzo;Sud;215;3,10%;14
+Basilicata;Sud;217;3,20%;14
+Calabria;Sud;560;8,20%;35
+Campania;Sud;2.224;32,40%;139
+Emilia-Romagna;Nord-Est;1.150;43,30%;169
+Friuli Venezia Giulia;Nord-Est;267;10,00%;40
+Lazio;Centro;1.330;44,70%;177
+Liguria;Nord-Ovest;407;9,10%;38
+Lombardia;Nord-Ovest;2.722;60,90%;253
+Marche;Centro;326;10,90%;44
+Molise;Sud;59;0,90%;4
+P.A. Bolzano;Nord-Est;39;1,50%;6
+P.A. Trento;Nord-Est;117;4,40%;18
+Piemonte;Nord-Ovest;1.264;28,30%;118
+Puglia;Sud;1.867;27,20%;117
+Sardegna;Isole;279;4,10%;18
+Sicilia;Isole;1.450;21,10%;91
+Toscana;Centro;1.206;40,50%;161
+Umbria;Centro;116;3,90%;16
+Valle d'Aosta;Nord-Ovest;74;1,70%;7
+Veneto;Nord-Est;1.085;40,80%;160
 TOTALE;;16.974;;1.639
