@@ -1,0 +1,9 @@
+;Non vaccinati (n=1258);Non vaccinati (n=1258);Vaccinati con ciclo incompleto di vaccinazione (n=58);Vaccinati con ciclo incompleto di vaccinazione (n=58);Vaccinati con ciclo completo di vaccinazione (n=326);Vaccinati con ciclo completo di vaccinazione (n=326);p-value
+Numero di patologie;N;%;N;%;N;%;
+0;37;3;0;0;2;0,6;<0,001
+1;126;10,2;2;3,4;20;6,2;<0,001
+2;211;17;7;12,1;31;9,5;<0,001
+3+;867;69,9;49;84,5;272;83,7;<0,001
+;;;;;;;
+;Media;dev. std.;Media;dev. std.;Media;dev. std.;
+Numero di patologie;3,9;2,2;5;2,2;4,9;2,5;<0,001

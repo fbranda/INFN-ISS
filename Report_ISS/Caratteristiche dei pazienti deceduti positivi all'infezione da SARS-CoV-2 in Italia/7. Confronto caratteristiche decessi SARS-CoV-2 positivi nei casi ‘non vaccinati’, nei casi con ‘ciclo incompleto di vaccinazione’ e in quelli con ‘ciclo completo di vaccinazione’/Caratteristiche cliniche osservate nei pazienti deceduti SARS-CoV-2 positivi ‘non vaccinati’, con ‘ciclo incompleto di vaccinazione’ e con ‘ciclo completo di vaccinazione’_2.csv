@@ -1,0 +1,16 @@
+;Non vaccinati (n=1258);Non vaccinati (n=1258);Vaccinati con ciclo incompleto di vaccinazione (n=58);Vaccinati con ciclo incompleto di vaccinazione (n=58);Vaccinati con ciclo completo di vaccinazione (n=326);Vaccinati con ciclo completo di vaccinazione (n=326);p-value
+Patologie;N;%;N;%;N;%;
+Cardiopatia ischemica;343;27,6;29;50;121;37,2;<0,001
+Fibrillazione atriale;340;27,4;18;31;109;33,5;0,087
+Scompenso cardiaco;176;14,2;17;29,3;81;24,9;<0,001
+Ictus;113;9,1;9;15,5;33;10,2;0,245
+Ipertensione arteriosa;821;66,2;40;69;227;69,8;0,429
+Diabete mellito-Tipo 2;347;28;16;27,6;95;29,2;0,898
+Demenza;237;19,1;11;19;113;34,8;<0,001
+BPCO (BroncoPneumopatia Cronica Ostruttiva);210;16,9;6;10,3;74;22,8;0,016
+Cancro attivo negli ultimi 5 anni;160;12,9;6;10,3;62;19,1;0,012
+Epatopatia cronica;64;5,2;5;8,6;17;5,2;0,515
+Dialisi;40;3,2;2;3,4;11;3,4;0,986
+Infezione da HIV;1;0,1;1;1,7;0;0;0,002
+Malattie autoimmuni;83;6,7;7;12,1;18;5,5;0,183
+Obesitˆ;197;15,9;3;5,2;28;8,6;0,001

@@ -1,0 +1,6 @@
+;Terapia Intensiva (TI);Terapia Intensiva (TI);No Terapia Intensiva (TI);No Terapia Intensiva (TI);p-value
+Numero di patologie;N;%;N;%;
+0;132;7,2;113;1,8;Ê<0,001
+1;315;17,3;614;9,5;<0,001
+2;438;24;1037;16,1;Ê<0,001
+3+;940;51,5;4673;72,6;<0,001

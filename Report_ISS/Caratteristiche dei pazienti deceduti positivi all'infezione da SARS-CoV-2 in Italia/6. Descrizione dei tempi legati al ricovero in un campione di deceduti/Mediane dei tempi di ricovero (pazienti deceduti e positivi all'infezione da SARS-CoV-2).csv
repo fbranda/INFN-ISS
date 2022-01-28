@@ -1,0 +1,6 @@
+Tipologia;Numero mediano di giorni
+Insorgenza sintomi --> decesso;13
+Insorgenza sintomi --> ricovero in ospedale;5
+Ricovero in ospedale --> decesso;8
+Ricovero in ospedale --> decesso (NO RIANIMAZIONE);7
+Ricovero in ospedale --> decesso (SI RIANIMAZIONE);13

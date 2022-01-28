@@ -1,0 +1,18 @@
+;Terapia Intensiva (TI);Terapia Intensiva (TI);No Terapia Intensiva (TI);No Terapia Intensiva (TI);p-value
+Patologie;N;%;N;%;
+Cardiopatia ischemica;374;20,5;1.952;30,3;<0,001
+Fibrillazione atriale;252;13,8;1.834;28,5;<0,001
+Scompenso cardiaco;184;9,8;1.142;17,5;<0,001
+Ictus;99;5,4;832;12,9;<0,001
+Ipertensione arteriosa;1.173;64,3;4.268;66,3;0,111
+Diabete mellito-Tipo 2;552;30,2;1.855;28,8;0,243
+Demenza;85;4,7;1.859;28,9;<0,001
+BPCO (BroncoPneumopatia Cronica Ostruttiva);291;15,9;1.158;18;0,043
+Cancro attivo negli ultimi 5 anni;201;11;1.136;17,6;<0,001
+Epatopatia cronica;78;4,3;342;5,3;0,08
+Insufficienza renale cronica;286;15,7;1.516;23,6;<0,001
+Dialisi;41;2,2;151;2,3;0,861
+Insufficienza respiratoria;106;5,8;486;7,6;0,01
+Infezione da HIV;7;0,4;11;0,2;0,092
+Malattie autoimmuni;106;5,8;288;4,5;0,021
+Obesitˆ;465;25,5;508;7,9;<0,001

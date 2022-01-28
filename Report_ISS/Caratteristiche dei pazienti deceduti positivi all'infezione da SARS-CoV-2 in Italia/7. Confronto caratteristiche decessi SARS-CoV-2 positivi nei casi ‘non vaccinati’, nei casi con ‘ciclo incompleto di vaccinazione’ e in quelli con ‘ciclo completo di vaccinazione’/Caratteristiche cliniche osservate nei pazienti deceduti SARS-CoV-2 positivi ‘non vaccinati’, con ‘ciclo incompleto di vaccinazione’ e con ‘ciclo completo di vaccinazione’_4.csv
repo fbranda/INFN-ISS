@@ -1,0 +1,6 @@
+;Non vaccinati (n=1258);Non vaccinati (n=1258);Vaccinati con ciclo incompleto di vaccinazione (n=58);Vaccinati con ciclo incompleto di vaccinazione (n=58);Vaccinati con ciclo completo di vaccinazione (n=326);Vaccinati con ciclo completo di vaccinazione (n=326);p-value
+Complicanze;N;%;N;%;N;%;
+Insufficienza respiratoria acuta;1172;94,4;45;78,9;277;86,6;<0,001
+Danno renale acuto;352;28,4;13;22,8;114;35,6;0,021
+Danno miocardico acuto;103;8,3;3;5,3;43;13,4;0,01
+Sovrainfezione;327;26,3;15;26,3;91;28,4;0,751

@@ -1,0 +1,6 @@
+;Terapia Intensiva (TI);Terapia Intensiva (TI);No Terapia Intensiva (TI);No Terapia Intensiva (TI);p-value
+Complicanze per infezione da SARS-CoV-2;N;%;N;%;
+Insufficienza respiratoria acuta;1.745;94,4;5.881;93,1;0,043
+Danno renale acuto;690;37,3;1.404;22,2;<0,001
+Danno miocardico acuto;244;13;607;9,3;<0,001
+Sovrainfezione;782;42,3;942;14,9;<0,001
