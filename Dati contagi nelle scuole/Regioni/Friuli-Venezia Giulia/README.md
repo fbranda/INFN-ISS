@@ -1,1 +1,1 @@
-Fonte dati: Sito istituzionale [Regione Friuli-Venezia Giulia](http://www.usrfvg.gov.it/it/home/menu/uffici/Direzione/Rilevazioni-e-statistiche/index.html) con [Licenza CC-BY 3.0](http://creativecommons.org/licenses/by/3.0/it/)
+Fonte dati: [USR Friuli-Venezia Giulia](http://www.usrfvg.gov.it/it/home/menu/uffici/Direzione/Rilevazioni-e-statistiche/index.html) con [Licenza CC-BY 3.0](http://creativecommons.org/licenses/by/3.0/it/)
