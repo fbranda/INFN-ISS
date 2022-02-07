@@ -1,1 +1,1 @@
-Fonte dati: Pagina ufficiale Twitter AOPI (https://twitter.com/AopiOspedali) 
+Fonte dati: Pagina ufficiale Twitter [AOPI](https://twitter.com/AopiOspedali) 
