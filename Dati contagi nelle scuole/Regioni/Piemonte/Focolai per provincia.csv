@@ -12,7 +12,7 @@
 11-17 ottobre 2021;Biella;0;0;0;0;2
 11-17 ottobre 2021;Torino città;0;0;0;1;5
 11-17 ottobre 2021;Torino Area metropolitana;0;1;1;0;3
-11-17 ottobre 2021;Cuneo;0;0;0;0;1
+x;Cuneo;0;0;0;0;1
 11-17 ottobre 2021;Vco;0;0;0;0;0
 11-17 ottobre 2021;Novara;0;0;0;0;0
 11-17 ottobre 2021;Vercelli;0;0;0;0;0
@@ -128,3 +128,13 @@
 17-23 gennaio 2022;Vercelli;-;3;16;13;11
 17-23 gennaio 2022;Alessandria;10;20;65;10;20
 17-23 gennaio 2022;Asti;4;5;17;10;2
+;;;;;;
+24-30 gennaio 2022;Biella;4;12;98;33;44
+24-30 gennaio 2022;Torino città;11;51;141;99;171
+24-30 gennaio 2022;Torino Area metropolitana;2;56;201;177;159
+24-30 gennaio 2022;Cuneo;1;5;77;30;21
+24-30 gennaio 2022;Vco;-;2;18;5;3
+24-30 gennaio 2022;Novara;4;6;30;15;8
+24-30 gennaio 2022;Vercelli;4;12;66;34;70
+24-30 gennaio 2022;Alessandria;1;18;85;14;43
+24-30 gennaio 2022;Asti;6;12;24;21;3
