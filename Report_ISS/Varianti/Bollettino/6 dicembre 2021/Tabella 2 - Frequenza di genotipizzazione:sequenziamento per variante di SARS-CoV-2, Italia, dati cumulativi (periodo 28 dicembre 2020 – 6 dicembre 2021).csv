@@ -1,0 +1,19 @@
+Nomenclatura OMS;Lignaggio;Numero di casi (cumulativi);% (cumulativi);Numero di casi (ultimi 45 gg);% (ultimi 45 gg)
+Alfa;B.1.1.7;27.928;34,6;4;0,1
+;B.1.1.7 + E484K;75;0,1;0;0
+Beta (a);B.1.351;289;0,4;0;0
+Gamma (b);P.1;2.829;3,5;1;<0,1
+Delta (c) ;B.1.617.2;40.065;49,7;6.448;86,6
+Omicron;B.1.1.529 ;4;<0,1;4;0,1
+ND (d,e);B.1.525;485;0,6;0;0
+ND (d,e);B.1.617.1;548;0,7;65;0,9
+ND (d);B.1.617.3;31;<0,1;1;<0,1
+ND (d,e);P.2;5;<0,1;0;0
+;Altro lignaggio/non indicato (f);8.347;10,4;924;12,4
+Totale;;80.606;100;7.447;100
+;;;;;
+a: la variante beta include nel Sistema di Sorveglianza Integrata anche i relativi sotto-lignaggi;;;;;
+b: la variante gamma include nel Sistema di Sorveglianza Integrata anche i relativi sotto-lignaggi;;;;;
+d: non disponibile;;;;;
+e: precedentemente ÒetaÓ (B.1.525), ÒkappaÓ (B.1.617.1) e ÒzetaÓ (P.2);;;;;
+f: si intende un caso genotipizzato appartenente ad altro lignaggio oppure ad un lignaggio non indicato dalle Regioni/PA. ;;;;;
