@@ -1,0 +1,32 @@
+REGIONE/PA;N. Laboratori;N. campioni positivi in RT-PCR;N. campioni sequenziati;N. di sequenze ottenute per analisi;Numero;;;Prevalenza;
+;;;;;Delta^;Omicron†;Altre varianti;Delta^;Omicron†
+ABRUZZO;2;1521;40;40;3;37;0;7,5;92,5
+BASILICATA;2;482;9;9;0;9;0;0;100
+CALABRIA;3;1693;45;30;1;29;0;3,3;96,7
+CAMPANIA;3;4331;227;220;20;200;0;9,1;90,9
+EMILIA ROMAGNA;3;197;197;193;2;191;0;1;99
+FRIULI VENEZIA GIULIA;8;201;70;67;2;65;0;3;97
+LAZIO*;5;529;529;461;17;444;0;3,7;96,3
+LIGURIA;12;2496;45;45;2;43;0;4,4;95,6
+LOMBARDIA;16;396;396;392;18;374;0;4,6;95,4
+MARCHE**;5;76;48;48;1;47;0;2,1;97,9
+MOLISE;1;32;11;11;0;11;0;0;100
+PA BOLZANO;1;281;40;40;3;36;1~;7,5;90
+PA TRENTO;1;23;23;18;3;15;0;16,7;83,3
+PIEMONTE;15;122;122;119;4;115;0;3,4;96,6
+PUGLIA;11;37;37;37;0;37;0;0;100
+SARDEGNA***;10;1576;52;52;2;50;0;3,8;96,2
+SICILIA;5;841;207;207;27;180;0;13;87
+TOSCANA****;3;312;156;156;1;155;0;0,6;99,4
+UMBRIA;4;541;48;48;0;48;0;0;100
+VALLE D'AOSTA;1;5;5;5;0;5;0;0;100
+VENETO;13;179;179;179;8;171;0;4,5;95,5
+ITALIA;124;15871;2486;2377;114;2262;1;4,2;95,8
+;;;;;;;;;
+^ La variante Delta include il lignaggio B.1.617.2 e tutti i sotto-lignaggi AY.n come da documento ECDC SARS-CoV-2 variants of concern as of 20 January 20223.;;;;;;;;;
+†La variante Omicron include il lignaggio B.1.529 e tutti i sotto-lignaggi BA.n come da documento ECDC SARS-CoV-2 variants of concern as of 20 January 20223.;;;;;;;;;
+*Inclusi i risultati del laboratorio di Sanita_ Militare: n. 145 positivi, n. 145 campioni sequenziati, n. 140 sequenze ottenute per l’analisi, n. 140 Omicron.;;;;;;;;;
+**La Regione Marche comunica che ulteriori n.28 sequenze sono state analizzate mediante screening molecolare: n.1 sequenza attribuibile alla variante Delta e n.27 attribuibili alla variante Omicron.;;;;;;;;;
+***La Regione Sardegna comunica che per n.12 dei 52 campioni analizzati, e_ stato sequenziato solo il gene S (spike). ;;;;;;;;;
+"****La Regione Toscana comunica che ulteriori n.156 campioni sono stati analizzati attraverso metodiche di screening; di cui n.4 attribuibili alla variante Delta e n.152 attribuibili alla variante Omicron. ";;;;;;;;;
+~Lignaggio B.1.639;;;;;;;;;

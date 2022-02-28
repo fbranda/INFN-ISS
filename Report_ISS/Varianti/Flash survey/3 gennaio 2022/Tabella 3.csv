@@ -1,0 +1,31 @@
+REGIONE/PA;N. Laboratori;N. campioni positivi in RT-PCR;N. campioni sequenziati;N. di sequenze ottenute per analisi;Numero;;;Prevalenza;
+;;;;;Delta^;Omicron†;Altre varianti;Delta;Omicron
+ABRUZZO;2;1990;117;117;26;91;0;22,2;77,8
+BASILICATA;2;535;11;11;0;11;0;0;100
+CALABRIA;4;1073;40;35;10;25;0;28,6;71,4
+CAMPANIA;3;9802;221;213;62;151;0;29,1;70,9
+EMILIA ROMAGNA;3;131;131;131;27;104;0;20,6;79,4
+FRIULI VENEZIA GIULIA;8;422;96;96;34;62;0;35,4;64,6
+LAZIO*;4;407;345;301;44;257;0;14,6;85,4
+LIGURIA;8;815;30;30;7;23;0;23,3;76,7
+LOMBARDIA;16;443;443;443;50;393;0;11,3;88,7
+MARCHE**;5;82;50;50;9;41;0;18;82
+MOLISE;1;46;46;46;1;45;0;2,2;97,8
+PA BOLZANO;1;371;24;24;10;13;1~;41,7;54,2
+PA TRENTO;1;26;26;25;6;19;0;24;76
+PIEMONTE;14;101;101;99;23;76;0;23,2;76,8
+PUGLIA;11;76;74;74;6;68;0;8,1;91,9
+SARDEGNA***;10;1237;54;54;9;45;0;16,7;83,3
+SICILIA;5;1807;274;274;58;216;0;21,2;78,8
+TOSCANA****;3;276;139;139;15;124;0;10,8;89,2
+UMBRIA;5;1036;91;90;6;84;0;6,7;93,3
+VALLE D'AOSTA;1;3;3;3;2;1;0;66,7;33,3
+VENETO;13;316;316;316;107;209;0;33,9;66,1
+ITALIA;120;20995;2632;2571;512;2058;1;19,22;80,75
+;;;;;;;;;
+^ La variante Delta include il lignaggio B.1.617.2 e tutti i sotto-lignaggi AY.n come da documento ECDC SARS-CoV-2 variants of concern as of 5 January 2022. https://www.ecdc.europa.eu/en/covid-19/variants-concern ;;;;;;;;;
+†La variante Omicron include il lignaggio B.1.529 e tutti i sotto-lignaggi BA.n come da documento ECDC SARS-CoV-2 variants of concern as of 5 January 2022. https://www.ecdc.europa.eu/en/covid-19/variants-concern ;;;;;;;;;
+*inclusi i risultati del laboratorio di Sanita_ Militare: n. 166 positivi, n. 104 campioni sequenziati, n. 104 sequenze ottenute per analisi, n. 10 Delta, n. 94 Omicron.;;;;;;;;;
+"**La Regione Marche comunica che ulteriori 32 sequenze sono state analizzate mediante screening molecolare: 5 sequenze sono attribuibili alla variante Delta e 27 sequenze sono attribuibili alla variante Omicron;";;;;;;;;;
+"***Regione Sardegna comunica che per 14 dei 54 campioni analizzati, è stato sequenziato solo il Gene S; ****La Regione Toscana comunica che ulteriori 137 campioni sono stati analizzati attraverso metodiche di screening;";;;;;;;;;
+137 sono risultati positivi allo screening per Omicron. ~ Lignaggio B.1.639 ;;;;;;;;;
