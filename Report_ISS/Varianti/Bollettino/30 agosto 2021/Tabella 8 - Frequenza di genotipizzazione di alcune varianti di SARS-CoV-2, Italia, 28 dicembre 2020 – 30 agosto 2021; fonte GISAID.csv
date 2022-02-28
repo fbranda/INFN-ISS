@@ -1,0 +1,38 @@
+Nomenclatura OMS;Lignaggio;Numero di sequenze;%
+Alfa;B.1.1.7;23.603;46,4
+Alfa;B.1.1.7 + E484K;25;0,05
+Alfa;Q.1;56;0,11
+Alfa;Q.2;1.597;3,14
+Alfa;Q.4;2;0
+Beta;B.1.351;67;0,13
+Beta;B.1.351.2;21;0,04
+Beta;B.1.351.3;41;0,08
+Gamma;P.1;431;0,85
+Gamma;P.1.1;1.819;3,58
+Gamma;P.1.2;0;0
+Gamma;P.1.4;3;0,01
+Gamma;P.1.6;0;0
+Gamma;P.1.7;296;0,58
+Gamma;P.1.10;1;0
+Delta;B.1.617.2;6.951;13,7
+Delta;AY.1;1;0
+Delta;AY.2;0;0
+Delta;AY.3;5;0,01
+Delta;AY.3.1;0;0
+Delta;AY.4;2.319;4,56
+Delta;AY.5;79;0,15
+Delta;AY.6;152;0,3
+Delta;AY.7;182;0,36
+Delta;AY.7.1;2;0,04
+Delta;AY.7.2;160;0,32
+Delta;AY.9;259;0,51
+Delta;AY.10;12;0,02
+Delta;AY.x;1.564;3,07
+Eta;B.1.525;432;0,8
+Iota;B.1.526;8;0,02
+Kappa;B.1.617.1;19;0,04
+Lambda;C.37;12;0,02
+ND;B.1.617.3;0;0
+ND;P.2;3;0,01
+;Altro lignaggio;10.733;21,1
+Totale;;50.855;100
