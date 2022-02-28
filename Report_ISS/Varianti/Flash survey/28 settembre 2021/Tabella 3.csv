@@ -1,0 +1,34 @@
+REGIONE/PA;"N.
+Laboratori";"N.
+campioni positivi in
+RT-PCR";"N.
+campioni sequenziati";"N. di sequenze ottenute
+per analisi";Numero;;;;Prevalenza;;
+;;;;;Beta;Gamma;Delta^;Altre varianti;Beta;Gamma;Delta^
+ABRUZZO;2;52;21;21;0;0;21;0;0;0;100
+BASILICATA;2;9;9;9;0;0;9;0;0;0;100
+CALABRIA;2;97;45;42;0;0;42;0;0;0;100
+CAMPANIA;3;222;87;87;0;0;87;0;0;0;100
+EMILIA ROMAGNA;3;151;151;151;0;0;151;0;0;0;100
+FRIULI VENEZIA GIULIA;8;62;26;25;0;0;25;0;0;0;100
+LAZIO;20;171;171;145;0;0;145;0;0;0;100
+LIGURIA;8;82;33;33;0;0;33;0;0;0;100
+LOMBARDIA*;16;198;191;183;0;0;183;0;0;0;100
+MARCHE;6;30;30;30;0;0;30;0;0;0;100
+MOLISE;1;3;3;3;0;0;3;0;0;0;100
+PA BOLZANO;1;37;13;13;0;0;13;0;0;0;100
+PA TRENTO;1;12;12;12;0;0;12;0;0;0;100
+PIEMONTE;15;112;112;107;0;0;107;0;0;0;100
+PUGLIA;10;40;40;40;0;0;40;0;0;0;100
+SARDEGNA;10;167;29;24;0;0;24;0;0;0;100
+SICILIA;5;192;159;156;0;0;156;0;0;0;100
+TOSCANA;3;120;119**;35;0;0;35;0;0;0;100
+UMBRIA;4;55;26;26;0;0;26;0;0;0;100
+VALLE D'AOSTA;1;3;3;3;0;0;3;0;0;0;100
+VENETO;12;163;163;163;0;0;163;0;0;0;100
+ITALIA;133;1978;1443;1308;0;0;1308;0;0;0;100
+;;;;;;;;;;;
+;;;;;;;;;;;
+^ La variante delta include il lignaggio B.1.617.2 e tutti i sotto-lignaggi AY come da documento ECDC del 30 settembre 2021, consultabile al link: https://www.ecdc.europa.eu/en/covid-19/variants-concern3;;;;;;;;;;;
+*La Regione Lombardia comunica che vista la riduzione del numero di positivi del giorno 28 settembre 2021, sono stati inclusi alcuni campioni del 27 settembre 2021.;;;;;;;;;;;
+"**La Regione Toscana comunica che i 119 campioni sono stati analizzati con test di screening e sono risultati positivi per VOC Delta; di questi, 35 sono stati sottoposti a sequenziamento genomico. ";;;;;;;;;;;

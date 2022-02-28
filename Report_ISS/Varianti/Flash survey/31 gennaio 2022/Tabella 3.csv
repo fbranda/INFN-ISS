@@ -1,0 +1,32 @@
+REGIONE/PA;N. Laboratori;"N. campioni positivi in
+RT-PCR";N. campioni sequenziati;"N. di sequenze ottenute per
+analisi";Numero;;;Prevalenza;
+;;;;;Delta^;Omicron ;Altre varianti;Delta;Omicron
+ABRUZZO;2;1231;51;51;0;51;0;0;100
+BASILICATA;2;674;13;13;0;13;0;0;100
+CALABRIA;4;1195;30;19;0;19;0;0;100
+CAMPANIA;3;1352;144;144;3;141;0;2,1;97,9
+EMILIA ROMAGNA;3;182;182;159;2;157;0;1,3;98,7
+FRIULI VENEZIA GIULIA;8;123;56;54;0;54;0;0;100
+LAZIO;5;315;315;295;1;294;0;0,3;99,7
+LIGURIA;11;1720;55;55;1;54;0;1,8;98,2
+LOMBARDIA;16;365;365;356;3;353;0;0,8;99,2
+MARCHE*;5;87;86;86;1;85;0;1,2;98,8
+MOLISE;1;25;17;17;0;17;0;0;100
+PA BOLZANO;1;256;42;42;0;42;0;0;100
+PA TRENTO;1;21;21;20;0;20;0;0;100
+PIEMONTE;14;150;150;127;0;127;0;0;100
+PUGLIA;10;110;110;110;0;110;0;0;100
+SARDEGNA**;10;1421;35;20;1;19;0;5;95
+SICILIA;5;281;185;185;5;180;0;2,7;97,3
+TOSCANA***;3;248;133;131;0;131;0;0;100
+UMBRIA;4;473;50;50;2;48;0;4;96
+VALLE D'AOSTA;1;4;4;4;0;4;0;0;100
+VENETO;13;245;245;245;3;242;0;1,2;98,8
+ITALIA;122;10478;2289;2183;22;2161;0;0,9;99,1
+;;;;;;;;;
+^ La variante Delta include il lignaggio B.1.617.2 e tutti i sotto-lignaggi AY.n come da documento ECDC ÒSARS-CoV-2 variants of concern as of 3 February 2022Ó4. ;;;;;;;;;
+ La variante Omicron include il lignaggio B.1.529 e tutti i sotto-lignaggi BA.n come da documento ECDC ÒSARS-CoV-2 variants of concern as of 3 February 2022Ó4. ;;;;;;;;;
+*La Regione Marche comunica che una ulteriore sequenza e_ stata identificata mediante screening molecolare e attribuibile alla variante Omicron.;;;;;;;;;
+**La Regione Sardegna comunica che per problemi tecnici non e_ stato possibile sequenziare ulteriori 15 campioni del Centro Nord Sardegna. ;;;;;;;;;
+***La Regione Toscana comunica una sequenza attribuibile al lignaggio BA.3 con metodo Sanger in corso di conferma e ulteriori 115 campioni analizzati con screening molecolare e attribuibili alla variante Omicron. ;;;;;;;;;
