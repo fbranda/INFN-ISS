@@ -1,1 +1,1 @@
-# L'Italia in formato open-data
+# L'Italia open-data
