@@ -23,7 +23,6 @@ data_date;Location name;Population
 02/03/22;Russian Federation;51261
 02/03/22;Slovakia;47800
 02/03/22;Belarus;374
-02/03/22;Italy;3840
 03/03/22;Poland;649903
 03/03/22;Hungary;144738
 03/03/22;Republic of Moldova;110876
@@ -32,7 +31,6 @@ data_date;Location name;Population
 03/03/22;Russian Federation;57192
 03/03/22;Slovakia;53300
 03/03/22;Belarus;384
-03/03/22;Italy;6608
 04/03/22;Poland;756303
 04/03/22;Hungary;157004
 04/03/22;Republic of Moldova;133876
@@ -41,7 +39,6 @@ data_date;Location name;Population
 04/03/22;Russian Federation;63192
 04/03/22;Slovakia;53300
 04/03/22;Belarus;406
-04/03/22;Italy;9058
 05/03/22;Poland;885303
 05/03/22;Hungary;169053
 05/03/22;Republic of Moldova;157056
@@ -50,19 +47,16 @@ data_date;Location name;Population
 05/03/22;Russian Federation;71640
 05/03/22;Slovakia;53300
 05/03/22;Belarus;406
-05/03/22;Italy;11323
 06/03/22;Poland;1027603
 06/03/22;Hungary;180163
 06/03/22;Republic of Moldova;82762
 06/03/22;Other European countries;183688
 06/03/22;Romania;82062
 06/03/22;Slovakia;128169
-06/03/22;Italy;14237
 07/03/22;Other European countries;210239
 07/03/22;Hungary;191348
 07/03/22;Slovakia;140745
 07/03/22;Belarus;453
-07/03/22;Italy;17286
 08/03/22;Poland;1412503
 08/03/22;Other European countries;235745
 08/03/22;Hungary;214160
@@ -70,9 +64,15 @@ data_date;Location name;Population
 08/03/22;Russian Federation;99300
 08/03/22;Romania;84671
 08/03/22;Belarus;592
-08/03/22;Italy;21095
 09/03/22;Other European countries;258840
 09/03/22;Slovakia;165199
 09/03/22;Russian Federation;97098
 09/03/22;Belarus;765
-09/03/22;Italy;23872
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
