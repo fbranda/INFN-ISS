@@ -1,14 +1,78 @@
 data_date;Location name;Population
+28/02/22;Poland;353504
+28/02/22;Hungary;89561
+28/02/22;Republic of Moldova;65099
+28/02/22;Other European countries;51797
+28/02/22;Romania;38461
+28/02/22;Russian Federation;37900
+28/02/22;Slovakia;30000
+28/02/22;Belarus;329
+01/03/22;Poland;453982
+01/03/22;Hungary;116348
+01/03/22;Republic of Moldova;79315
+01/03/22;Other European countries;69600
+01/03/22;Romania;67000
+01/03/22;Russian Federation;44540
+01/03/22;Slovakia;42900
+01/03/22;Belarus;341
+02/03/22;Poland;547982
+02/03/22;Hungary;133009
+02/03/22;Republic of Moldova;97827
+02/03/22;Other European countries;88147
+02/03/22;Romania;79059
+02/03/22;Russian Federation;51261
+02/03/22;Slovakia;47800
+02/03/22;Belarus;374
+02/03/22;Italy;3840
+03/03/22;Poland;649903
+03/03/22;Hungary;144738
+03/03/22;Republic of Moldova;110876
+03/03/22;Other European countries;103254
+03/03/22;Romania;90329
+03/03/22;Russian Federation;57192
+03/03/22;Slovakia;53300
+03/03/22;Belarus;384
+03/03/22;Italy;6608
+04/03/22;Poland;756303
+04/03/22;Hungary;157004
+04/03/22;Republic of Moldova;133876
+04/03/22;Other European countries;103254
+04/03/22;Romania;101529
+04/03/22;Russian Federation;63192
+04/03/22;Slovakia;53300
+04/03/22;Belarus;406
+04/03/22;Italy;9058
+05/03/22;Poland;885303
+05/03/22;Hungary;169053
+05/03/22;Republic of Moldova;157056
+05/03/22;Other European countries;113967
+05/03/22;Romania;84067
+05/03/22;Russian Federation;71640
+05/03/22;Slovakia;53300
+05/03/22;Belarus;406
+05/03/22;Italy;11323
+06/03/22;Poland;1027603
+06/03/22;Hungary;180163
 06/03/22;Republic of Moldova;82762
+06/03/22;Other European countries;183688
 06/03/22;Romania;82062
+06/03/22;Slovakia;128169
+06/03/22;Italy;14237
 07/03/22;Other European countries;210239
 07/03/22;Hungary;191348
 07/03/22;Slovakia;140745
 07/03/22;Belarus;453
-08/03/22;Poland;1204403
+07/03/22;Italy;17286
+08/03/22;Poland;1412503
+08/03/22;Other European countries;235745
+08/03/22;Hungary;214160
+08/03/22;Slovakia;153303
 08/03/22;Russian Federation;99300
+08/03/22;Romania;84671
+08/03/22;Belarus;592
 08/03/22;Italy;21095
-;;
-;;
-;;
-;;
+09/03/22;Other European countries;258840
+09/03/22;Slovakia;165199
+09/03/22;Russian Federation;97098
+09/03/22;Belarus;765
+09/03/22;Italy;23872
