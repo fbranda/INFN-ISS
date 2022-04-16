@@ -1,1 +1,0 @@
-Fonte dati: Dashboard [Regione Toscana](https://app.powerbi.com/view?r=eyJrIjoiZmM3ZjBmZGEtYTZlNy00NjA3LTllZmItODYyMTJmYjdkMjQyIiwidCI6ImNhNTUyYWI3LTk4ZmYtNDAwNy1iYjUxLTUwMjNjOWMwYjNhNCIsImMiOjl9&fbclid=IwAR2UOw8FqkTgDj3Dy3SotPikt7VN4qs1sfb409Liap7hSvfdP-RdYzOqmHY)
