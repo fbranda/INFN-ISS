@@ -1,0 +1,16 @@
+Pathogens;Detected;Not detected ;Pending ;Not Tested ;No information 
+Adenovirus;40%;11%;1%;5%;23%
+SARS_CoV_2;10%;49%;0%;0%;21%
+EBV;8%;36%;7%;1%;28%
+Enterovirus;5%;14%;2%;13%;46%
+CMV;3%;43%;5%;1%;28%
+HHV-6;6%;4%;8%;13%;49%
+HHV-7;3%;2%;8%;14%;73%
+RSV;1%;11%;3%;7%;58%
+Parvo B19;0%;15%;6%;9%;50%
+HSV-1;0%;10%;4%;13%;53%
+HSV-2;0%;10%;4%;13%;53%
+Varicella;0%;7%;1%;10%;62%
+Leptospirosis;0%;4%;8%;12%;56%
+Flu;0%;6%;0%;1%;73%
+HIV;0%;5%;3%;14%;58%
