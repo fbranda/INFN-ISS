@@ -13,7 +13,6 @@ Settimana;Virus;N.;N. campioni;N. campioni analizzati
 22-28 novembre 2021;Positivi al SARS-CoV-2;155;631;589
 29 novembre-5 dicembre 2021;FLU A;1;513;484
 29 novembre-5 dicembre 2021;A;1;513;484
-29 novembre-5 dicembre 2021;A (non tipizzati);1;513;484
 29 novembre-5 dicembre 2021;A(H3N2);0;513;484
 29 novembre-5 dicembre 2021;A(H1N1)pdm2009;0;513;484
 29 novembre-5 dicembre 2021;FLU B;0;513;484
@@ -26,28 +25,24 @@ Settimana;Virus;N.;N. campioni;N. campioni analizzati
 6-12 dicembre 2021;Positivi al SARS-CoV-2;72;409;396
 13-19 dicembre 2021;FLU A;3;396;387
 13-19 dicembre 2021;A;0;396;387
-13-19 dicembre 2021;A (non tipizzati);1;396;387
 13-19 dicembre 2021;A(H3N2);3;396;387
 13-19 dicembre 2021;A(H1N1)pdm2009;0;396;387
 13-19 dicembre 2021;FLU B;1;396;387
 13-19 dicembre 2021;Positivi al SARS-CoV-2;80;396;387
 20-26 dicembre 2021;FLU A;11;318;287
 20-26 dicembre 2021;A;1;318;287
-20-26 dicembre 2021;A (non tipizzati);4;318;287
 20-26 dicembre 2021;A(H3N2);9;318;287
 20-26 dicembre 2021;A(H1N1)pdm2009;1;318;287
 20-26 dicembre 2021;FLU B;1;318;287
 20-26 dicembre 2021;Positivi al SARS-CoV-2;60;318;287
 27 dicembre 2021-2 gennaio 2022;FLU A;4;399;389
 27 dicembre 2021-2 gennaio 2022;A;0;399;389
-27 dicembre 2021-2 gennaio 2022;A (non tipizzati);1;399;389
 27 dicembre 2021-2 gennaio 2022;A(H3N2);3;399;389
 27 dicembre 2021-2 gennaio 2022;A(H1N1)pdm2009;1;399;389
 27 dicembre 2021-2 gennaio 2022;FLU B;0;399;389
 27 dicembre 2021-2 gennaio 2022;Positivi al SARS-CoV-2;164;399;389
 3-9 gennaio 2022;FLU A;10;496;480
 3-9 gennaio 2022;A;1;496;480
-3-9 gennaio 2022;A (non tipizzati);3;496;480
 3-9 gennaio 2022;A(H3N2);9;496;480
 3-9 gennaio 2022;A(H1N1)pdm2009;0;496;480
 3-9 gennaio 2022;FLU B;0;496;480
@@ -60,92 +55,85 @@ Settimana;Virus;N.;N. campioni;N. campioni analizzati
 10-16 gennaio 2022;Positivi al SARS-CoV-2;110;303;287
 17-23 gennaio 2022;FLU A;8;542;527
 17-23 gennaio 2022;A;1;542;527
-17-23 gennaio 2022;A (non tipizzati);4;542;527
 17-23 gennaio 2022;A(H3N2);6;542;527
 17-23 gennaio 2022;A(H1N1)pdm2009;1;542;527
 17-23 gennaio 2022;FLU B;0;542;527
 17-23 gennaio 2022;Positivi al SARS-CoV-2;266;542;527
 24-30 gennaio 2022;FLU A;14;344;331
 24-30 gennaio 2022;A;2;344;331
-24-30 gennaio 2022;A (non tipizzati);3;344;331
 24-30 gennaio 2022;A(H3N2);10;344;331
 24-30 gennaio 2022;A(H1N1)pdm2009;2;344;331
 24-30 gennaio 2022;FLU B;0;344;331
 24-30 gennaio 2022;Positivi al SARS-CoV-2;126;344;331
 31 gennaio-6 febbraio 2022;FLU A;10;265;255
 31 gennaio-6 febbraio 2022;A;2;265;255
-31 gennaio-6 febbraio 2022;A (non tipizzati);4;265;255
 31 gennaio-6 febbraio 2022;A(H3N2);8;265;255
 31 gennaio-6 febbraio 2022;A(H1N1)pdm2009;0;265;255
 31 gennaio-6 febbraio 2022;FLU B;0;265;255
 31 gennaio-6 febbraio 2022;Positivi al SARS-CoV-2;72;265;255
 7-13 febbraio 2022;FLU A;12;537;524
 7-13 febbraio 2022;A;0;537;524
-7-13 febbraio 2022;A (non tipizzati);7;537;524
 7-13 febbraio 2022;A(H3N2);12;537;524
 7-13 febbraio 2022;A(H1N1)pdm2009;0;537;524
 7-13 febbraio 2022;FLU B;0;537;524
 7-13 febbraio 2022;Positivi al SARS-CoV-2;230;537;524
 14-20 febbraio 2022;FLU A;17;394;388
 14-20 febbraio 2022;A;0;394;388
-14-20 febbraio 2022;A (non tipizzati);8;394;388
 14-20 febbraio 2022;A(H3N2);17;394;388
 14-20 febbraio 2022;A(H1N1)pdm2009;0;394;388
 14-20 febbraio 2022;FLU B;0;394;388
 14-20 febbraio 2022;Positivi al SARS-CoV-2;151;394;388
 21-27 febbraio 2022;FLU A;40;388;356
 21-27 febbraio 2022;A;0;388;356
-21-27 febbraio 2022;A (non tipizzati);5;388;356
 21-27 febbraio 2022;A(H3N2);39;388;356
 21-27 febbraio 2022;A(H1N1)pdm2009;1;388;356
 21-27 febbraio 2022;FLU B;0;388;356
 21-27 febbraio 2022;Positivi al SARS-CoV-2;94;388;356
 28 febbraio-6 marzo 2022;FLU A;75;487;479
 28 febbraio-6 marzo 2022;A;6;487;479
-28 febbraio-6 marzo 2022;A (non tipizzati);5;487;479
 28 febbraio-6 marzo 2022;A(H3N2);69;487;479
 28 febbraio-6 marzo 2022;A(H1N1)pdm2009;0;487;479
 28 febbraio-6 marzo 2022;FLU B;0;487;479
 28 febbraio-6 marzo 2022;Positivi al SARS-CoV-2;178;487;479
 7-13 marzo 2022;FLU A;180;629;610
 7-13 marzo 2022;A;48;629;610
-7-13 marzo 2022;A (non tipizzati);85;629;610
 7-13 marzo 2022;A(H3N2);132;629;610
 7-13 marzo 2022;A(H1N1)pdm2009;0;629;610
 7-13 marzo 2022;FLU B;0;629;610
 7-13 marzo 2022;Positivi al SARS-CoV-2;154;629;610
 14-20 marzo 2022;FLU A;303;758;741
 14-20 marzo 2022;A;83;758;741
-14-20 marzo 2022;A (non tipizzati);108;758;741
 14-20 marzo 2022;A(H3N2);219;758;741
 14-20 marzo 2022;A(H1N1)pdm2009;1;758;741
 14-20 marzo 2022;FLU B;0;758;741
 14-20 marzo 2022;Positivi al SARS-CoV-2;185;758;741
 21-27 marzo 2022;FLU A;330;780;753
 21-27 marzo 2022;A;118;780;753
-21-27 marzo 2022;A (non tipizzati);130;780;753
 21-27 marzo 2022;A(H3N2);211;780;753
 21-27 marzo 2022;A(H1N1)pdm2009;1;780;753
 21-27 marzo 2022;FLU B;0;780;753
 21-27 marzo 2022;Positivi al SARS-CoV-2;211;780;753
 28 marzo-3 aprile 2022;FLU A;289;705;676
 28 marzo-3 aprile 2022;A;84;705;676
-28 marzo-3 aprile 2022;A (non tipizzati);103;705;676
 28 marzo-3 aprile 2022;A(H3N2);204;705;676
 28 marzo-3 aprile 2022;A(H1N1)pdm2009;1;705;676
 28 marzo-3 aprile 2022;FLU B;0;705;676
 28 marzo-3 aprile 2022;Positivi al SARS-CoV-2;177;705;676
-4-10 aprile 2022;FLU A;225;696;664
-4-10 aprile 2022;A;93;696;664
-4-10 aprile 2022;A (non tipizzati);90;696;664
-4-10 aprile 2022;A(H3N2);131;696;664
+4-10 aprile 2022;FLU A;234;696;664
+4-10 aprile 2022;A;98;696;664
+4-10 aprile 2022;A(H3N2);135;696;664
 4-10 aprile 2022;A(H1N1)pdm2009;1;696;664
 4-10 aprile 2022;FLU B;0;696;664
 4-10 aprile 2022;Positivi al SARS-CoV-2;233;696;664
-11-17 aprile 2022;FLU A;64;491;472
-11-17 aprile 2022;A;37;491;472
-11-17 aprile 2022;A (non tipizzati);37;280;259
-11-17 aprile 2022;A(H3N2);26;491;472
+11-17 aprile 2022;FLU A;128;491;472
+11-17 aprile 2022;A;29;280;259
+11-17 aprile 2022;A(H3N2);98;491;472
 11-17 aprile 2022;A(H1N1)pdm2009;1;491;472
 11-17 aprile 2022;FLU B;1;491;472
 11-17 aprile 2022;Positivi al SARS-CoV-2;195;491;472
+18-24 aprile 2022;FLU A;40;384;375
+18-24 aprile 2022;A;13;384;375
+18-24 aprile 2022;A(H3N2);27;384;375
+18-24 aprile 2022;A(H1N1)pdm2009;0;384;375
+18-24 aprile 2022;FLU B;0;384;375
+18-24 aprile 2022;Positivi al SARS-CoV-2;136;384;375
