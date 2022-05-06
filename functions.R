@@ -134,3 +134,5 @@ makePlot <- function(death_web, cases_web, ita_web, title) {
 		  ggtitle(title) +   theme(plot.title = element_text(hjust = 0.5))
 
 return(pl1)
+
+}
