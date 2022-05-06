@@ -18,7 +18,7 @@ par(mar = c(4, 4, 0.1, 0.1))
 plot(c(0,1,2,3), c(0,1,2,3), pch = 19, type = "b")
 
 
-```{r echo=TRUE, fig.width=7}
+```{r echo=FALSE, fig.width=7}
 # get the data from John Hopkins
 cases_web <- "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"
 death_web <- "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv"
