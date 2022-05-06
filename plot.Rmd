@@ -15,4 +15,10 @@ link-citations: yes
 # Welcome here
 
 par(mar = c(4, 4, 0.1, 0.1))
-plot(pressure, pch = 19, type = "b")
+plot(c(0,1,2,3), c(0,1,2,3), pch = 19, type = "b")
+
+
+```{r echo=FALSE, fig.width=7}
+#  This is a normal R comment.
+plot(c(0,1,2,3), c(0,1,2,3), pch = 19, type = "b")
+```
