@@ -14,18 +14,13 @@ link-citations: yes
 
 # Welcome here
 
-par(mar = c(4, 4, 0.1, 0.1))
-plot(c(0,1,2,3), c(0,1,2,3), pch = 19, type = "b")
 
-
-```{r echo=FALSE, fig.width=7}
+```{r echo=FALSE, include = FALSE, message = FALSE, warning = FALSE, fig.width=10}
 # get the data from John Hopkins
 cases_web <- "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"
 death_web <- "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv"
 
 ita_web <- "https://raw.githubusercontent.com/lucacozzuto/INFN-ISS/main/InfluNet/2021-2022/Sorveglianza%20virologica%20/Dati/Risultati%20delle%20tipizzazioni%3Asottotipizzazioni%20dei%20virus%20influenzali%20circolanti%20in%20Italia.csv"
-
-install.packages(c("dplyr", "reshape", "stringr", "ggplot2"))
 
 
 getPartDataFromJH <- function(link, us=FALSE) {
