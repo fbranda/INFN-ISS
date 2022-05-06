@@ -1,0 +1,15 @@
+---
+title: "INFN-ISS"
+
+author:
+  - Luca Cozzuto^[CRG, luca.cozzuto@crg.eu]
+
+site: bookdown::INFN-ISS
+output: bookdown::gitbook
+documentclass: book
+biblio-style: apalike
+link-citations: yes
+---
+
+
+# Welcome here
