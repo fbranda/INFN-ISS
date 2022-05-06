@@ -72,3 +72,65 @@ getDataFromJH<-function(death_web, cases_web, single=FALSE){
 	return(jh_data)
 
 }
+
+makePlot <- function(death_web, cases_web, ita_web, title) {
+
+	data_web<-getDataFromJH(death_web, cases_web)
+	cases_ita<-getSingleCountryData(data_web, "Italy", "JH")
+
+
+	virol<-read.csv(ita_web, sep=";")
+	virol$group_vir <- ifelse(virol$"Virus" == "Positivi al SARS-CoV-2", 'Covid', 
+		ifelse(virol$"Virus" == "FLU A", 'Flu',
+		ifelse(virol$"Virus" == "FLU B", 'Flu',
+	"other")))
+
+	virol.2<-virol[-grep("other", virol$group_vir), ]
+
+	virol.agg<-virol.2 %>%
+	  group_by(Settimana, group_vir) %>%
+	  summarise(Positives = sum(N.), 
+		   Samples_analized = mean(N..campioni.analizzati))
+
+	virol.agg.df<-as.data.frame(virol.agg)
+
+	raw_date<-as.data.frame(str_split(virol.agg.df$Settimana, " ", simplify = TRUE))
+
+	raw_date$year <- ifelse(raw_date$"V5" != "", raw_date$"V3", 
+					ifelse(raw_date$"V4" != "", raw_date$"V4",
+					raw_date$"V3")
+	)
+
+	raw_date$V3<-NULL
+	raw_date$V4<-NULL
+	raw_date$V5<-NULL
+
+	good_dates<-data.frame("day" = gsub("-.*","", raw_date$V1), "month" = gsub("-.*","", raw_date$V2), "year" = raw_date$year)
+
+	good_dates2<-good_dates %>% mutate("month" = recode(good_dates$"month", 'gennaio' = '1', 'febbraio' = '2', 'marzo' = '3',
+	'aprile' = '4', 'maggio' = '5', 'giugno' = '6',
+	'luglio' = '7', 'agosto' = '8', 'settembre' = '9',
+	'ottobre' = '10', 'novembre' = '11', 'dicembre' = '12' 
+	))
+
+	virol.agg.df$date<-as.Date(paste(good_dates2$month, good_dates2$day, good_dates2$year, sep="-"), format="%m-%d-%Y")
+
+	merge.df<-merge(virol.agg.df, cases_ita, by.y = "date", by.x = "date")
+	merge.df$perc <- merge.df$Positives/merge.df$Samples_analized*100
+
+	library("ggplot2")
+
+
+	pl1 <- ggplot(merge.df, aes(x=date, y=Samples_analized*100)) + 
+		  geom_bar(stat = "unique", width=4, fill = "#f6e8e8", alpha=0.7, colour = "gray") + 
+		  geom_line(aes(y = Positives*100, group = group_vir, color=group_vir)) +
+		  scale_color_manual(values=c("#e8b357","#a22115")) + 
+		  geom_line(aes(y = cases), color="blue") +
+			scale_y_continuous(
+				"Prevalence Covid", 
+				sec.axis = sec_axis(~ . * 0.01, name = "INFN-ISS cases")
+			) +
+		  theme_classic() +  
+		  ggtitle(title) +   theme(plot.title = element_text(hjust = 0.5))
+
+return(pl1)
