@@ -25,7 +25,7 @@ death_web <- "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/c
 
 ita_web <- "https://raw.githubusercontent.com/fbranda/INFN-ISS/main/InfluNet/Sorveglianza%20virologica/Risultati%20delle%20tipizzazioni%3Asottotipizzazioni%20dei%20virus%20influenzali%20circolanti%20in%20Italia.csv"
 
-install.packages(c("dplyr", "reshape", "stringr"))
+install.packages(c("dplyr", "reshape", "stringr", "ggplot2"))
 
 
 getPartDataFromJH <- function(link, us=FALSE) {
