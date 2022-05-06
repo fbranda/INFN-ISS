@@ -2,7 +2,9 @@
 title: "INFN-ISS"
 
 author:
+  - Francesco Branda
   - Luca Cozzuto^[CRG, luca.cozzuto@crg.eu]
+
 
 site: bookdown::INFN-ISS
 output: bookdown::gitbook
@@ -12,4 +14,5 @@ link-citations: yes
 ---
 
 
-# Welcome here
+# Welcome
+add some text here
