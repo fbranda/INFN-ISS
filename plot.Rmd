@@ -15,7 +15,7 @@ link-citations: yes
 # Welcome here
 
 
-```{r echo=FALSE, warning = FALSE, fig.width=10}
+```{r echo=FALSE, warning = FALSE, fig.width=7}
 # get the data from John Hopkins
 cases_web <- "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"
 death_web <- "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv"
