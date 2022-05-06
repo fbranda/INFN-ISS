@@ -13,3 +13,6 @@ link-citations: yes
 
 
 # Welcome here
+
+par(mar = c(4, 4, 0.1, 0.1))
+plot(pressure, pch = 19, type = "b")
