@@ -22,11 +22,18 @@ death_web <- "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/c
 
 ita_web1 <- "https://raw.githubusercontent.com/lucacozzuto/INFN-ISS/main/InfluNet/2021-2022/Sorveglianza%20virologica%20/Dati/Risultati%20delle%20tipizzazioni%3Asottotipizzazioni%20dei%20virus%20influenzali%20circolanti%20in%20Italia.csv"
 
+ita_web2 <- "https://raw.githubusercontent.com/lucacozzuto/INFN-ISS/main/InfluNet/2020-2021/Sorveglianza%20virologica/Dati/Risultati%20delle%20tipizzazioni%3Asottotipizzazioni%20dei%20virus%20influenzali%20circolanti%20in%20Italia.csv"
+
 source("functions.R", local = knitr::knit_global())
 
 pl1<-makePlot(death_web, cases_web, ita_web1, "2021 / 2022")
 
 print(pl1)
+
+
+pl1<-makePlot(death_web, cases_web, ita_web2, "2020 / 2021")
+print(pl1)
+
 
 
 ```
