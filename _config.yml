@@ -1,0 +1,5 @@
+theme: jekyll-theme-dinky
+title: INFN-ISS
+markdown: kramdown
+kramdown:
+  parse_block_html: true
