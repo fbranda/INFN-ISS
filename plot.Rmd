@@ -12,7 +12,7 @@ link-citations: yes
 ---
 
 
-# Welcome here
+# Plots
 
 
 ```{r echo=FALSE, warning = FALSE, message=FALSE, fig.width=7}
