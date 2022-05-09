@@ -8,7 +8,7 @@ bookdown::gitbook:
       before: |
         <li><a href="./">INFIN-ISS</a></li>
       after: |
-        <li><a href="https://biocore.crg.eu/" target="blank">BIOINFORMATICS CORE @ CRG</a></li>
+        <li><a href="https://github.com/fbranda/INFN-ISS/" target="blank">GitHub repository</a></li>
     download: ["pdf", "epub"]
     search: yes
 bookdown::html_book:
