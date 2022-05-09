@@ -26,7 +26,7 @@ ita_web2 <- "https://raw.githubusercontent.com/lucacozzuto/INFN-ISS/main/InfluNe
 
 source("functions.R", local = knitr::knit_global())
 
-pl1<-makePlot(death_web, cases_web, ita_web2, "2020 / 2021")
+pl1<-makePlot(death_web, cases_web, ita_web1, "2020 / 2021")
 print(pl1)
 
 ```
