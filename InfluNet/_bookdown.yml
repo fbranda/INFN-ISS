@@ -1,7 +1,7 @@
-title: "INFN-ISS"
+title: "InfluNet"
 author: ".."
 date: "`r Sys.Date()`"
-book_filename: "infn-iss"
+book_filename: "InfluNet"
 language:
   ui:
     chapter_name: "Part "
