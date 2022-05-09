@@ -50,7 +50,7 @@ jobs:
          # Destination path
          path: _book # optional
      - name: Deploy to GitHub Pages
-       uses: Cecilapp/GitHub-Pages-deploy@v3
+       uses: ad-m/github-push-action@master
        with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: gh-pages
