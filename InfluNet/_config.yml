@@ -1,5 +1,5 @@
 theme: jekyll-theme-dinky
-title: INFN-ISS
+title: InfluNet
 markdown: kramdown
 kramdown:
   parse_block_html: true
