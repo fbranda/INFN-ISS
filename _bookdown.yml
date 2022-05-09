@@ -1,0 +1,15 @@
+title: "INFN-ISS"
+author: ".."
+date: "`r Sys.Date()`"
+book_filename: "infn-iss"
+language:
+  ui:
+    chapter_name: "Part "
+delete_merged_file: true
+rmd_files: ["index.Rmd",
+          "plot.Rmd"]
+output:
+  bookdown::gitbook:
+    theme: cosmo
+    highlight: tango
+output_format: html
