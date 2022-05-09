@@ -88,13 +88,13 @@ makePlot <- function(death_web, cases_web, ita_web, title) {
 	virol.2<-virol[-grep("other", virol$group_vir), ]
 
 	virol.agg<-virol.2 %>%
-	  group_by(Settimana, group_vir) %>%
+	  group_by(Data, group_vir) %>%
 	  summarise(Positives = sum(N.), 
 		   Samples_analized = mean(N..campioni.analizzati))
 
 	virol.agg.df<-as.data.frame(virol.agg)
 
-	raw_date<-as.data.frame(str_split(virol.agg.df$Settimana, " ", simplify = TRUE))
+	raw_date<-as.data.frame(str_split(virol.agg.df$Data, " ", simplify = TRUE))
 
 	raw_date$year <- ifelse(raw_date$"V5" != "", raw_date$"V3", 
 					ifelse(raw_date$"V4" != "", raw_date$"V4",
