@@ -2,7 +2,7 @@
 title: "INFN-ISS"
 
 author:
-  - Francesco Branda
+  - Francesco Branda^[, francesco.brada@unical.it]
   - Luca Cozzuto^[CRG, luca.cozzuto@crg.eu]
 
 
