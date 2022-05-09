@@ -1,8 +1,8 @@
 ---
-title: "INFN-ISS"
+title: "InfluNet"
 
 author:
-  - Francesco Branda^[, francesco.brada@unical.it]
+  - Francesco Branda^[DtoK Lab, francesco.brada@unical.it]
   - Luca Cozzuto^[CRG, luca.cozzuto@crg.eu]
 
 
