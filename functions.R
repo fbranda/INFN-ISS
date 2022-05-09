@@ -124,6 +124,7 @@ makePlot <- function(death_web, cases_web, ita_web, title) {
 	pl1 <- ggplot(merge.df, aes(x=date, y=Samples_analized*100)) + 
 		  geom_bar(stat = "unique", width=4, fill = "#f6e8e8", alpha=0.7, colour = "gray") + 
 		  geom_line(aes(y = Positives*100, group = group_vir, color=group_vir)) +
+ 
 		  scale_color_manual(values=c("#e8b357","#a22115")) + 
 		  geom_line(aes(y = cases), color="blue") +
 			scale_y_continuous(
@@ -131,8 +132,9 @@ makePlot <- function(death_web, cases_web, ita_web, title) {
 				sec.axis = sec_axis(~ . * 0.01, name = "INFN-ISS cases")
 			) +
 		  theme_classic() +  
-		  ggtitle(title) +   theme(plot.title = element_text(hjust = 0.5))
+		  ggtitle(title) +   theme(plot.title = element_text(hjust = 0.5)) +  
+		  theme(axis.title.y.left =element_text(colour="blue"))
 
-return(pl1)
-
+	return(pl1)
 }
+
