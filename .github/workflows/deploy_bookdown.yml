@@ -24,7 +24,7 @@ jobs:
           # install full prebuilt version
           TINYTEX_INSTALLER: TinyTeX
       - name: Install rmarkdown
-        run: Rscript -e 'install.packages(c("rmarkdown","bookdown", "dplyr", "reshape", "stringr", "ggplot2"))'
+        run: Rscript -e 'install.packages(c("rmarkdown","bookdown", "dplyr", "reshape", "stringr", "ggplot2"), dependencies = TRUE)'
       - name: Render Book
         run: Rscript -e 'bookdown::render_book("index.Rmd")'
       - uses: actions/upload-artifact@v2
