@@ -50,6 +50,5 @@ jobs:
        env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
        with:
-        email: lucacozzuto@gmail.com
         build_dir: _book
         branch: gh-pages
