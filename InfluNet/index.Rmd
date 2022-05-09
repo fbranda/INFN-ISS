@@ -6,7 +6,7 @@ author:
   - Luca Cozzuto^[CRG, luca.cozzuto@crg.eu]
 
 
-site: bookdown::INFN-ISS
+site: bookdown::InfluNet
 output: bookdown::gitbook
 documentclass: book
 biblio-style: apalike
