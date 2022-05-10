@@ -13,7 +13,7 @@ link-citations: yes
 
 
 # Stagione 2020 / 2021
-Some text here
+In blu il numero di persone positive al covid, in giallo il numero di campioni analizzati da ISS positivi al covid e in rosso quelli positivi all'influenza. Le barre inidicano il numero di campioni analizzati.
 
 ```{r echo=FALSE, warning = FALSE, message=FALSE, fig.width=7}
 # get the data from John Hopkins
@@ -30,7 +30,7 @@ print(pl1)
 ```
 
 # Stagione 2021 / 2022
-Some thext here
+In blu il numero di persone positive al covid, in giallo il numero di campioni analizzati da ISS positivi al covid e in rosso quelli positivi all'influenza. Le barre inidicano il numero di campioni analizzati.
 
 ```{r echo=FALSE, warning = FALSE, message=FALSE, fig.width=7}
 # get the data from John Hopkins
