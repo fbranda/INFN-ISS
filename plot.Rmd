@@ -28,20 +28,6 @@ print(pl1)
 
 ```
 
-# Stagione 2021 / 2022
-In blu il numero di persone positive al covid, in giallo il numero di campioni analizzati da ISS positivi al covid e in rosso quelli positivi all'influenza. Le barre inidicano il numero di campioni analizzati.
-
-```{r echo=FALSE, warning = FALSE, message=FALSE, fig.width=7}
-# get the data from John Hopkins
-cases_web <- "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"
-death_web <- "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv"
-
-ita_web2 <- "https://raw.githubusercontent.com/lucacozzuto/INFN-ISS/main/InfluNet/2021-2022/Sorveglianza%20virologica%20/Dati/Risultati%20delle%20tipizzazioni%3Asottotipizzazioni%20dei%20virus%20influenzali%20circolanti%20in%20Italia.csv"
-
-source("functions.R", local = knitr::knit_global())
-
-pl2<-makePlot(death_web, cases_web, ita_web2, "2021 / 2022")
-print(pl2)
 
 
 
