@@ -138,7 +138,7 @@ makePlot <- function(death_web, cases_web, ita_web, title) {
 	return(pl1)
 }
 
-makePlotFlu<-(ita_web, title) {
+makePlotFlu<-function(ita_web, title) {
 
 	virol<-read.csv(ita_web, sep=";")
 	virol$group_vir <- ifelse(virol$"Virus" == "Positivi al SARS-CoV-2", 'Covid', 
