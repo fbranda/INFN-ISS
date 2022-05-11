@@ -182,7 +182,7 @@ makePlotFlu<-function(ita_web, title) {
 
 	pl1 <- ggplot(virol.agg.df, aes(x=date, y=Samples_analized)) + 
 		  geom_bar(stat = "unique", width=4, fill = "#f6e8e8", alpha=0.7, colour = "gray") + 
-		  geom_bar(stat = "unique", width=4, alpha=0.7, aes(y = Positives, group = group_vir, colour=group_vir)) +
+		  geom_bar(stat = "unique", width=4, alpha=0.7, aes(y = Positives, fill = group_vir, group = group_vir, colour=group_vir)) +
  
 		  theme_classic() +  
 		  ggtitle(title) +   theme(plot.title = element_text(hjust = 0.5)) 
