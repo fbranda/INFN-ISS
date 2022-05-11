@@ -15,12 +15,12 @@ link-citations: yes
 
 ```{r echo=FALSE, warning = FALSE, message=FALSE, fig.width=7}
 
-makePlotFlu
+
 ita_web <- "InfluNet/2019-2020/Sorveglianza%20virologica/Dati/Risultati_delle_tipizzazioni_sottotipizzazioni_dei_virus_influenzali_circolanti_in_Italia.csv"
 
 source("functions.R", local = knitr::knit_global())
 
-pl2019<-makePlotFlue(ita_web, "2019 / 2020")
+pl2019<-makePlotFlu(ita_web, "2019 / 2020")
 print(pl2019)
 ```
 
