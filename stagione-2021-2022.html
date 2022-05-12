@@ -99,13 +99,16 @@
             <section class="normal" id="section-">
 <div id="stagione-2021-2022" class="section level1 hasAnchor">
 <h1><span class="header-section-number">Part 4</span> Stagione 2021 / 2022<a href="stagione-2021-2022.html#stagione-2021-2022" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>ita_2021 &lt;- “InfluNet/2021-2022/Sorveglianza_virologica/Dati/Risultati_delle_tipizzazioni_sottotipizzazioni_dei_virus_influenzali_circolanti_in_Italia.csv”
-cases_web &lt;- “<a href="https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv" class="uri">https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv</a>”
-death_web &lt;- “<a href="https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv" class="uri">https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv</a>”</p>
-<p>source(“functions.R”, local = knitr::knit_global())</p>
-<p>pl1&lt;-makePlot(death_web, cases_web, ita_2021, “2021 / 2022”)
-print(pl1)</p>
-<p>```</p>
+<pre><code>ita_2021 &lt;- &quot;InfluNet/2021-2022/Sorveglianza_virologica/Dati/Risultati_delle_tipizzazioni_sottotipizzazioni_dei_virus_influenzali_circolanti_in_Italia.csv&quot;
+cases_web &lt;- &quot;https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv&quot;
+death_web &lt;- &quot;https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv&quot;
+
+
+source(&quot;functions.R&quot;, local = knitr::knit_global())
+
+pl1&lt;-makePlot(death_web, cases_web, ita_2021, &quot;2021 / 2022&quot;)
+print(pl1)
+</code></pre>
 
 </div>
 
