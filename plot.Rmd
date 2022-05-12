@@ -11,36 +11,6 @@ biblio-style: apalike
 link-citations: yes
 ---
 
-# Stagione 2016 / 2017
-
-```{r echo=FALSE, warning = FALSE, message=FALSE, fig.width=7}
-
-
-ita_2016 <- "InfluNet/2016-2017/Sorveglianza_virologica/Dati/Risultati_delle_tipizzazioni_sottotipizzazioni_dei_virus_influenzali_circolanti_in_Italia.csv"
-
-
-source("functions.R", local = knitr::knit_global())
-
-pl1<-makePlotFlu(ita_2016, "2016 / 2017")
-print(pl1)
-
-```
-
-# Stagione 2017 / 2018
-
-```{r echo=FALSE, warning = FALSE, message=FALSE, fig.width=7}
-
-
-ita_2017 <- "InfluNet/2017-2018/Sorveglianza_virologica/Dati/Risultati_delle_tipizzazioni_sottotipizzazioni_dei_virus_influenzali_circolanti_in_Italia.csv"
-
-
-source("functions.R", local = knitr::knit_global())
-
-pl1<-makePlotFlu(ita_2017, "2017 / 2018")
-print(pl1)
-
-```
-
 # Stagione 2018 / 2019
 
 ```{r echo=FALSE, warning = FALSE, message=FALSE, fig.width=7}
