@@ -11,6 +11,21 @@ biblio-style: apalike
 link-citations: yes
 ---
 
+# Stagione 2019 / 2020
+
+```{r echo=FALSE, warning = FALSE, message=FALSE, fig.width=7}
+
+
+ita_2019 <- "InfluNet/2019-2020/Sorveglianza_virologica/Dati/Risultati_delle_tipizzazioni_sottotipizzazioni_dei_virus_influenzali_circolanti_in_Italia.csv"
+
+
+source("functions.R", local = knitr::knit_global())
+
+pl1<-makePlotFlu(ita_2020, "2020 / 2021")
+print(pl1)
+
+```
+
 # Stagione 2020 / 2021
 
 ```{r echo=FALSE, warning = FALSE, message=FALSE, fig.width=7}
@@ -31,7 +46,7 @@ print(pl1)
 # Stagione 2021 / 2022
 
 
-ita_2021 <- "InfluNet/2020-2021/Sorveglianza_virologica/Dati/Risultati_delle_tipizzazioni_sottotipizzazioni_dei_virus_influenzali_circolanti_in_Italia.csv"
+ita_2021 <- "InfluNet/2021-2022/Sorveglianza_virologica/Dati/Risultati_delle_tipizzazioni_sottotipizzazioni_dei_virus_influenzali_circolanti_in_Italia.csv"
 cases_web <- "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"
 death_web <- "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv"
 
