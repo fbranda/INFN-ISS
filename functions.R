@@ -1,8 +1,10 @@
+library(dplyr)
+library(reshape)
+library(stringr)
+library("ggplot2")
+
 getPartDataFromJH <- function(link, us=FALSE) {
 
-	library(dplyr)
-	library(reshape)
-	library(stringr)
 	
 	data_raw<-read.csv(link)
 	# aggregate data and remove not useful ones
@@ -118,7 +120,6 @@ makePlot <- function(death_web, cases_web, ita_web, title) {
 	merge.df<-merge(virol.agg.df, cases_ita, by.y = "date", by.x = "date")
 	merge.df$perc <- merge.df$Positives/merge.df$Samples_analized*100
 
-	library("ggplot2")
 
 
 	pl1 <- ggplot(merge.df, aes(x=date, y=Samples_analized*100)) + 
