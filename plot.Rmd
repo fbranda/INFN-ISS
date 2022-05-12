@@ -21,7 +21,7 @@ ita_2019 <- "InfluNet/2019-2020/Sorveglianza_virologica/Dati/Risultati_delle_tip
 
 source("functions.R", local = knitr::knit_global())
 
-pl1<-makePlotFlu(ita_2020, "2020 / 2021")
+pl1<-makePlotFlu(ita_2019, "2020 / 2021")
 print(pl1)
 
 ```
