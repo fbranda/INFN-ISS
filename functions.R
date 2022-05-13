@@ -84,11 +84,14 @@ makePlotCovid <- function(death_web, cases_web, ita_web, title) {
 	data_web<-getDataFromJH(death_web, cases_web)
 	cases_ita<-getSingleCountryData(data_web, "Italy", "JH")
 
-	pl1 <- ggplot(merge.df, aes(x=date, y=Samples_analized*100)) + 
+	merge.df<-merge(virol.agg.df, cases_ita, by.y = "date", by.x = "date")
+
+
+	pl1 <- ggplot(merge.df, aes(x=date, y=Total_Samples*100)) +
 		  geom_bar(stat = "unique", width=4, fill = "#f6e8e8", alpha=0.7, colour = "gray") + 
 		  geom_line(aes(y = Positives*100, group = group_vir, color=group_vir)) +
- 
-		  scale_color_manual(values=c("#e8b357","#a22115")) + 
+
+		  scale_color_manual(values=c("black", "#D48E88","#66B8BC")) + 
 		  geom_line(aes(y = cases), color="blue") +
 			scale_y_continuous(
 				"Prevalence Covid", 
@@ -98,7 +101,7 @@ makePlotCovid <- function(death_web, cases_web, ita_web, title) {
 		  ggtitle(title) +   theme(plot.title = element_text(hjust = 0.5)) +  
 		  theme(axis.title.y.left =element_text(colour="blue"))
 
-return(pl1)
+	return(pl1)
 }
 
 
@@ -171,6 +174,6 @@ makePlotFlu<-function(ita_web, title, yaxis) {
  
 		  theme_classic() +  
 		  ggtitle(title) +   theme(plot.title = element_text(hjust = 0.5)) 
-return(pl1)
+	return(pl1)
 
 }
