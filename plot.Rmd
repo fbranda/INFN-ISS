@@ -22,8 +22,7 @@ ita_2017 <- "InfluNet/2017-2018/Sorveglianza_virologica/Dati/Risultati_delle_tip
 
 source("functions.R", local = knitr::knit_global())
 
-pl1<-makePlotOldFlu(ita_2017, "2017 / 2018")
-print(pl1)
+makePlotFlu(ita_2017, "2017 / 2018", "Total samples")
 
 ```
 
@@ -37,8 +36,8 @@ ita_2018 <- "InfluNet/2018-2019/Sorveglianza_virologica/Dati/Risultati_delle_tip
 
 source("functions.R", local = knitr::knit_global())
 
-pl1<-makePlotFlu(ita_2018, "2018 / 2019")
-print(pl1)
+makePlotFlu(ita_2018, "2018 / 2019", "Samples analyzed")
+
 
 ```
 
@@ -52,8 +51,7 @@ ita_2019 <- "InfluNet/2019-2020/Sorveglianza_virologica/Dati/Risultati_delle_tip
 
 source("functions.R", local = knitr::knit_global())
 
-pl1<-makePlotFlu(ita_2019, "2019 / 2020")
-print(pl1)
+makePlotFlu(ita_2019, "2019 / 2020", "Samples analyzed")
 
 ```
 
@@ -69,8 +67,8 @@ death_web <- "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/c
 
 source("functions.R", local = knitr::knit_global())
 
-pl1<-makePlot(death_web, cases_web, ita_2020, "2020 / 2021")
-print(pl1)
+makePlotCovid(death_web, cases_web, ita_2020, "2020 / 2021")
+
 
 ```
 
@@ -85,8 +83,8 @@ death_web <- "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/c
 
 source("functions.R", local = knitr::knit_global())
 
-pl1<-makePlot(death_web, cases_web, ita_2021, "2021 / 2022")
-print(pl1)
+makePlotCovid(death_web, cases_web, ita_2021, "2021 / 2022")
+
 
 ```
 
