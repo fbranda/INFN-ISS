@@ -3,6 +3,7 @@ library(reshape)
 library(stringr)
 library("ggplot2")
 
+
 getPartDataFromJH <- function(link, us=FALSE) {
 
 	
@@ -75,52 +76,13 @@ getDataFromJH<-function(death_web, cases_web, single=FALSE){
 
 }
 
-makePlot <- function(death_web, cases_web, ita_web, title) {
 
+makePlotCovid <- function(death_web, cases_web, ita_web, title) {
+
+	virol.agg.df<-reshapeData(ita_web)
+	
 	data_web<-getDataFromJH(death_web, cases_web)
 	cases_ita<-getSingleCountryData(data_web, "Italy", "JH")
-
-
-	virol<-read.csv(ita_web, sep=";")
-	virol$group_vir <- ifelse(virol$"Virus" == "Positivi al SARS-CoV-2", 'Covid', 
-		ifelse(virol$"Virus" == "FLU A", 'Flu',
-		ifelse(virol$"Virus" == "FLU B", 'Flu',
-	"other")))
-
-	virol.2<-virol[-grep("other", virol$group_vir), ]
-
-	virol.agg<-virol.2 %>%
-	  group_by(Settimana, group_vir) %>%
-	  summarise(Positives = sum(N.), 
-		   Samples_analized = mean(N..campioni.analizzati))
-
-	virol.agg.df<-as.data.frame(virol.agg)
-
-	raw_date<-as.data.frame(str_split(virol.agg.df$Settimana, " ", simplify = TRUE))
-
-	raw_date$year <- ifelse(raw_date$"V5" != "", raw_date$"V3", 
-					ifelse(raw_date$"V4" != "", raw_date$"V4",
-					raw_date$"V3")
-	)
-
-	raw_date$V3<-NULL
-	raw_date$V4<-NULL
-	raw_date$V5<-NULL
-
-	good_dates<-data.frame("day" = gsub("-.*","", raw_date$V1), "month" = gsub("-.*","", raw_date$V2), "year" = raw_date$year)
-
-	good_dates2<-good_dates %>% mutate("month" = recode(good_dates$"month", 'gennaio' = '1', 'febbraio' = '2', 'marzo' = '3',
-	'aprile' = '4', 'maggio' = '5', 'giugno' = '6',
-	'luglio' = '7', 'agosto' = '8', 'settembre' = '9',
-	'ottobre' = '10', 'novembre' = '11', 'dicembre' = '12' 
-	))
-
-	virol.agg.df$date<-as.Date(paste(good_dates2$month, good_dates2$day, good_dates2$year, sep="-"), format="%m-%d-%Y")
-
-	merge.df<-merge(virol.agg.df, cases_ita, by.y = "date", by.x = "date")
-	merge.df$perc <- merge.df$Positives/merge.df$Samples_analized*100
-
-
 
 	pl1 <- ggplot(merge.df, aes(x=date, y=Samples_analized*100)) + 
 		  geom_bar(stat = "unique", width=4, fill = "#f6e8e8", alpha=0.7, colour = "gray") + 
@@ -136,62 +98,15 @@ makePlot <- function(death_web, cases_web, ita_web, title) {
 		  ggtitle(title) +   theme(plot.title = element_text(hjust = 0.5)) +  
 		  theme(axis.title.y.left =element_text(colour="blue"))
 
-	return(pl1)
-}
-
-makePlotFlu<-function(ita_web, title) {
-
-	virol<-read.csv(ita_web, sep=";")
-	virol$group_vir <- ifelse(virol$"Virus" == "Positivi al SARS-CoV-2", 'Covid', 
-		ifelse(virol$"Virus" == "FLU A", 'Flu A',
-		ifelse(virol$"Virus" == "FLU B", 'Flu B',
-	"other")))
-
-	virol.2<-virol[-grep("other", virol$group_vir), ]
-
-	virol.agg<-virol.2 %>%
-	  group_by(Settimana, group_vir) %>%
-	  summarise(Positives = sum(N.), 
-		   Samples_analized = mean(N..campioni.analizzati))
-
-	virol.agg.df<-as.data.frame(virol.agg)
-
-	raw_date<-as.data.frame(str_split(virol.agg.df$Settimana, " ", simplify = TRUE))
-
-	raw_date$year <- ifelse(raw_date$"V5" != "", raw_date$"V3", 
-					ifelse(raw_date$"V4" != "", raw_date$"V4",
-					raw_date$"V3")
-	)
-
-	raw_date$V3<-NULL
-	raw_date$V4<-NULL
-	raw_date$V5<-NULL
-
-	good_dates<-data.frame("day" = gsub("-.*","", raw_date$V1), "month" = gsub("-.*","", raw_date$V2), "year" = raw_date$year)
-
-	good_dates2<-good_dates %>% mutate("month" = recode(good_dates$"month", 'gennaio' = '1', 'febbraio' = '2', 'marzo' = '3',
-	'aprile' = '4', 'maggio' = '5', 'giugno' = '6',
-	'luglio' = '7', 'agosto' = '8', 'settembre' = '9',
-	'ottobre' = '10', 'novembre' = '11', 'dicembre' = '12' 
-	))
-
-	virol.agg.df$date<-as.Date(paste(good_dates2$month, good_dates2$day, good_dates2$year, sep="-"), format="%m-%d-%Y")
-
-
-	library("ggplot2")
-
-
-	pl1 <- ggplot(virol.agg.df, aes(x=date, y=Samples_analized)) + 
-		  geom_bar(stat = "unique", width=4, fill = "#f6e8e8", alpha=0.7, colour = "gray") + 
-		  geom_bar(stat = "unique", width=4, alpha=0.7, aes(y = Positives, fill = group_vir, group = group_vir, colour=group_vir)) +
- 
-		  theme_classic() +  
-		  ggtitle(title) +   theme(plot.title = element_text(hjust = 0.5)) 
 return(pl1)
-
 }
 
-makePlotOldFlu<-function(ita_web, title) {
+
+
+
+
+
+reshapeData<-function(ita_web) {
 
 	virol<-read.csv(ita_web, sep=";")
 	virol$group_vir <- ifelse(virol$"Virus" == "Positivi al SARS-CoV-2", 'Covid', 
@@ -201,23 +116,36 @@ makePlotOldFlu<-function(ita_web, title) {
 
 	virol.2<-virol[-grep("other", virol$group_vir), ]
 
-	virol.agg<-virol.2 %>%
-	  group_by(Settimana, group_vir) %>%
-	  summarise(Positives = sum(N.), 
-		   Total_Samples = mean(N..campioni))
-
+	if (dim(virol.2)[2] == 6) {
+		virol.agg<-virol.2 %>%
+		  group_by(Settimana, group_vir) %>%
+		  summarise(Positives = sum(N.), 
+			   Total_Samples = mean(N..campioni))
+	} else {
+		virol.agg<-virol.2 %>%
+		  group_by(Settimana, group_vir) %>%
+		  summarise(Positives = sum(N.), 	
+		  Total_Samples = mean(N..campioni.analizzati))
+		  	
+	}
+	
 	virol.agg.df<-as.data.frame(virol.agg)
 
 	raw_date<-as.data.frame(str_split(virol.agg.df$Settimana, " ", simplify = TRUE))
 
-	raw_date$year <- ifelse(raw_date$"V5" != "", raw_date$"V3", 
-					ifelse(raw_date$"V4" != "", raw_date$"V4",
-					raw_date$"V3")
-	)
-
+	if ( dim(raw_date)[2] == 5) { 
+		raw_date$year <- ifelse(raw_date$"V5" != "", raw_date$"V3", 
+						ifelse(raw_date$"V4" != "", raw_date$"V4",
+						raw_date$"V3")
+		)
+		raw_date$V5<-NULL
+	} else if (dim(raw_date)[2] == 4) {
+		raw_date$year <-ifelse(raw_date$"V4" != "", raw_date$"V4",
+						raw_date$"V3")
+	
+	}
 	raw_date$V3<-NULL
 	raw_date$V4<-NULL
-	raw_date$V5<-NULL
 
 	good_dates<-data.frame("day" = gsub("-.*","", raw_date$V1), "month" = gsub("-.*","", raw_date$V2), "year" = raw_date$year)
 
@@ -229,15 +157,20 @@ makePlotOldFlu<-function(ita_web, title) {
 
 	virol.agg.df$date<-as.Date(paste(good_dates2$month, good_dates2$day, good_dates2$year, sep="-"), format="%m-%d-%Y")
 
+	return(virol.agg.df)
+}
 
-	library("ggplot2")
 
+makePlotFlu<-function(ita_web, title, yaxis) {
+	virol.agg.df<-reshapeData(ita_web)
 
 	pl1 <- ggplot(virol.agg.df, aes(x=date, y=Total_Samples)) + 
+	      ylab(yaxis) +
 		  geom_bar(stat = "unique", width=4, fill = "#f6e8e8", alpha=0.7, colour = "gray") + 
 		  geom_bar(stat = "unique", width=4, alpha=0.7, aes(y = Positives, fill = group_vir, group = group_vir, colour=group_vir)) +
  
 		  theme_classic() +  
 		  ggtitle(title) +   theme(plot.title = element_text(hjust = 0.5)) 
 return(pl1)
+
 }
