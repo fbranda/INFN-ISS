@@ -191,7 +191,7 @@ return(pl1)
 
 }
 
-makePlotOldFlu<-(ita_web, title) {
+makePlotOldFlu<-function(ita_web, title) {
 
 	virol<-read.csv(ita_web, sep=";")
 	virol$group_vir <- ifelse(virol$"Virus" == "Positivi al SARS-CoV-2", 'Covid', 
