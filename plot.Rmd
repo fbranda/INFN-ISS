@@ -11,7 +11,85 @@ biblio-style: apalike
 link-citations: yes
 ---
 
-# Stagione 2017 / 2019
+# Stagione 2012 / 2013
+
+
+```{r echo=FALSE, warning = FALSE, message=FALSE, fig.width=7}
+
+
+ita_2012 <- "InfluNet/2012-2013/Sorveglianza_virologica/Dati/Risultati_delle_tipizzazioni_sottotipizzazioni_dei_virus_influenzali_circolanti_in_Italia.csv"
+
+
+source("functions.R", local = knitr::knit_global())
+
+makePlotFlu(ita_2012, "2012 / 2013", "Total samples")
+
+```
+
+# Stagione 2013 / 2014
+
+
+```{r echo=FALSE, warning = FALSE, message=FALSE, fig.width=7}
+
+
+ita_2013 <- "InfluNet/2013-2014/Sorveglianza_virologica/Dati/Risultati_delle_tipizzazioni_sottotipizzazioni_dei_virus_influenzali_circolanti_in_Italia.csv"
+
+
+source("functions.R", local = knitr::knit_global())
+
+makePlotFlu(ita_2013, "2013 / 2014", "Total samples")
+
+```
+
+
+# Stagione 2014 / 2015
+
+
+```{r echo=FALSE, warning = FALSE, message=FALSE, fig.width=7}
+
+
+ita_2014 <- "InfluNet/2014-2015/Sorveglianza_virologica/Dati/Risultati_delle_tipizzazioni_sottotipizzazioni_dei_virus_influenzali_circolanti_in_Italia.csv"
+
+
+source("functions.R", local = knitr::knit_global())
+
+makePlotFlu(ita_2014, "2014 / 2015", "Total samples")
+
+```
+
+
+# Stagione 2015 / 2016
+
+
+```{r echo=FALSE, warning = FALSE, message=FALSE, fig.width=7}
+
+
+ita_2015 <- "InfluNet/2015-2016/Sorveglianza_virologica/Dati/Risultati_delle_tipizzazioni_sottotipizzazioni_dei_virus_influenzali_circolanti_in_Italia.csv"
+
+
+source("functions.R", local = knitr::knit_global())
+
+makePlotFlu(ita_2015, "2015 / 2016", "Total samples")
+
+```
+
+# Stagione 2016 / 2017
+
+
+```{r echo=FALSE, warning = FALSE, message=FALSE, fig.width=7}
+
+
+ita_2016 <- "InfluNet/2016-2017/Sorveglianza_virologica/Dati/Risultati_delle_tipizzazioni_sottotipizzazioni_dei_virus_influenzali_circolanti_in_Italia.csv"
+
+
+source("functions.R", local = knitr::knit_global())
+
+makePlotFlu(ita_2016, "2016 / 2017", "Total samples")
+
+```
+
+
+# Stagione 2017 / 2018
 
 
 ```{r echo=FALSE, warning = FALSE, message=FALSE, fig.width=7}
