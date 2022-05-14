@@ -1,3 +1,3 @@
 # L'Italia open-data
 
-Il report automatico è https://fbranda.github.io/INFN-ISS/
+InfluNet -> report automatico raggiungibile al link https://fbranda.github.io/INFN-ISS/
