@@ -31,7 +31,7 @@ phase characterized by the predominance of the Omicron variant in Italy, Novembe
 
 This repository and data exports are published under the CC BY 4.0 license.
 
-If you use this file, please cite it as described in Contributions section.
+If you use this file, please cite it as described in *CITATION.cff* file.
 
 
 
