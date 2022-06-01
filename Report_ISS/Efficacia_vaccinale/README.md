@@ -24,5 +24,7 @@ df <- read.csv(text=content(GET("https://raw.githubusercontent.com/fbranda/INFN-
 
 This repository and data exports are published under the CC BY 4.0 license.
 
-Cite: Read file CITATION.cff
+If you use this file, please cite it as described in *CTATION.cff* file.
+
+
 
