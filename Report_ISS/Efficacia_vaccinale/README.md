@@ -18,13 +18,19 @@ df = pd.read_csv("https://raw.githubusercontent.com/fbranda/INFN-ISS/main/Report
 ```r
 library(httr)
 df <- read.csv(text=content(GET("https://raw.githubusercontent.com/fbranda/INFN-ISS/main/Report_ISS/Efficacia_vaccinale/report_iss_efficacia_vaccini.csv")))
-```
+
+## Contributions
+
+1. Branda, F. Impact of the additional/booster dose of COVID-19 vaccine against severe disease during the epidemic 
+phase characterized by the predominance of the Omicron variant in Italy, November 2021 - March 2022. medRxiv 2022, 
+[https://www.medrxiv.org/content/early/2022/04/28/2022.04.21.22273567.full.pdf]. doi:10.1101/2022.04.21.22273567. 
+
 
 ## License and attribution
 
 This repository and data exports are published under the CC BY 4.0 license.
 
-If you use this file, please cite it as described in *CITATION.cff* file.
+If you use this file, please cite it as described in Contributions section.
 
 
 
