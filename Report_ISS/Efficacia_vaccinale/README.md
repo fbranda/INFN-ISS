@@ -18,6 +18,7 @@ df = pd.read_csv("https://raw.githubusercontent.com/fbranda/INFN-ISS/main/Report
 ```r
 library(httr)
 df <- read.csv(text=content(GET("https://raw.githubusercontent.com/fbranda/INFN-ISS/main/Report_ISS/Efficacia_vaccinale/report_iss_efficacia_vaccini.csv")))
+```
 
 ## Contributions
 
