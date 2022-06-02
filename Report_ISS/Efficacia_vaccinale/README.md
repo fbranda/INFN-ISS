@@ -2,7 +2,7 @@
 
 ## Contents
 
-This repository contains dated records extracted from the [Italian National Institute of Health (ISS)](https://www.iss.it/en/sorveglianze-covid-19) reports from the [14 July 2021](https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_14-luglio-2021.pdf)
+This repository contains data extracted from the [Italian National Institute of Health (ISS)](https://www.iss.it/en/sorveglianze-covid-19) bullettins starting from the [14 July 2021](https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_14-luglio-2021.pdf)
 
 ## Getting the data
 
