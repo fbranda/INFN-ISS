@@ -44,8 +44,8 @@ This repository contains data extracted from the [Italian National Institute of 
 | deaths_start | Formatted String | Lower bound of the reference period for the deaths value `YYYY-MM-DD` |
 | deaths_end | Formatted String | Upper bound of the reference period for the deaths value `YYYY-MM-DD` |
 | total_deaths | Integer | Total population in the age group and on the reference day by vaccination status |
-| perc_pop_deaths | Float | Percentage of vaccinated population per age group, i.e., pop_deaths/total_deaths |
-| perc_deaths | Float | Ratio between deaths and population by age group and vaccination status, i.e., deaths/pop_deaths |
+| perc_pop_deaths | Float | Percentage of vaccinated population per age group, i.e., `pop_deaths/total_deaths` |
+| perc_deaths | Float | Ratio between deaths and population by age group and vaccination status, i.e., `deaths/pop_deaths` |
 
 
 ## Getting the data
