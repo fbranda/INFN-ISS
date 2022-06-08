@@ -1,4 +1,4 @@
-variant;number_sequenced;percent_variant;variant_sex_female;percent_variant_female;variant_sex_male;percent_variant_male;native_case;imported_case
+variant;number_cases;percent_cases_variant;variant_sex_female;percent_variant_female;variant_sex_male;percent_variant_male;native_case;imported_case
 B.1.1.7;21.288;74,89;10.672;75,08;10.616;74,7;21.119;169
 B.1.351;215;0,76;106;0,75;109;0,77;208;7
 P.1;1.780;6,26;895;6,3;885;6,23;1.772;8
