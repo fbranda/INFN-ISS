@@ -1,4 +1,4 @@
-lignaggio;casi;perc_variante;casi_donne;perc_donne;casi_uomini;perc_uomini;caso_autoctono;caso_importato_da_estero
+date;source;variant;number_sequenced;percent_variant;variant_sex_female;percent_variant_female;variant_sex_male;percent_variant_male
 B.1.1.7 ;16.927;73,06;8.432;73,09;8.495;73,02;16.775;152
 B.1.351 ;192;0,83;95;0,82;97;0,83;188;4
 P.1 ;1.388;6;704;6,1;684;5,88;1.381;7
