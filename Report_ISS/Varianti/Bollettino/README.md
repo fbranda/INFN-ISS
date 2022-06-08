@@ -1,4 +1,4 @@
-# Tracking SARS-CoV-2 variants
+# Tracking SARS-CoV-2 variants in Italy
 
 ## Contents
 
