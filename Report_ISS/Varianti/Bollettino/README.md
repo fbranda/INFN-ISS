@@ -26,7 +26,7 @@ This repository contains data extracted from the [Italian National Institute of 
 
 ## Getting the data
 
-**Direct download (CSV)**: https://raw.githubusercontent.com/fbranda/INFN-ISS/main/Report_ISS/Efficacia_vaccinale/report_iss_efficacia_vaccini.csv  
+**Direct download (CSV)**: https://raw.githubusercontent.com/fbranda/INFN-ISS/main/Report_ISS/Varianti/Bollettino/data_variants.csv 
 
 **Python** (requires `pandas`):
 ```python
