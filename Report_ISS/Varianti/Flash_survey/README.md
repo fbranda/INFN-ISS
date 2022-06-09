@@ -40,8 +40,7 @@ variant |
 | percent_P-2 | Float | 100 x n_P-2-/number_detections_variant |
 | n_B-1-525 | Integer | Number of detections reported of the Eta variant (B.1.525) |
 | percent_B-1-525 | Float | 100 x n_B-1-525/number_detections_variant |
-| n_B-1-525 | Integer | Number of detections reported of the Eta variant (B.1.525) |
-| percent_B-1-525 | Float | 100 x n_B-1-525/number_detections_variant |
+
 
 
 
@@ -68,5 +67,3 @@ df <- read.csv(text=content(GET("https://raw.githubusercontent.com/fbranda/INFN-
 ## License and attribution
 
 This repository and data exports are published under the CC BY 4.0 license.
-
-If you use this file, please cite it as described in *CITATION.cff* file.
