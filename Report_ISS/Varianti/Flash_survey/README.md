@@ -11,31 +11,43 @@ This repository contains data extracted from the [Italian National Institute of 
 | :---        |    :----:   |          ---: |
 | date      | Formatted String       | Bulletin reference date `DD/MM/YYYY`   |
 | url | String | Link to the bulletin in pdf format |
-| variant | String | Name of the variant |
-| number_cases | Integer | Number of detections reported of the variants |
-| percent_cases_variant | Float | 100 x number_detections_variant/number_cases |
-| variant_sex_female | Integer | Number of detections reported of the variant by female sex |
-| percent_variant_female | Float | 100 x number_detections_variant/variant_sex_female |
-| variant_sex_male| Integer | Number of detections reported of the variant by male sex |
-| percent_variant_male | Float | 100 x number_detections_variant/variant_sex_male |
-| native_case | Integer | Number of persons who have contracted the virus in Italy | 
-| imported_case | Integer | Number of persons who have contracted the virus in a country other than Italy |
+| region | String | Name of the region |
+| number_laboratories | Integer | Number of laboratories  |
+| number_detections_variant | Float | Number of detections reported of the
+variant |
+| number_sequenced | Integer |  Number of sequenced samples |
+| n_B-1-1-7 | Integer | Number of detections reported of the Alpha variant (B.1.1.7) |
+| percent_B-1-1-7 | Float | 100 x n_B-1-1-7/number_detections_variant |
+| n_P-1 | Integer | Number of detections reported of the Gamma variant (P.1) |
+| percent_P-1 | Float | 100 x n_P-1/number_detections_variant |
+| n_B-1-351 | Integer | Number of detections reported of the Beta variant (B.1.351) |
+| percent_B-1-351 | Float | 100 x n_B-1-351/number_detections_variant |
+| n_B-1-617-2 | Integer | Number of detections reported of the Delta variant (B.1.617.2) |
+| percent_B-1-617-2 | Float | 100 x n_B-1-617-2/number_detections_variant |
+| n_B-1-1-529 | Integer | Number of detections reported of the Omicron variant (B.1.1.529) |
+| percent_B-1-1-529 | Float | 100 x n_B-1-1-529/number_detections_variant |
+| n_BA-1 | Integer | Number of detections reported of the sublineage Omicron variant (BA.1) |
+| percent_BA-1 | Float | 100 x n_BA-1/number_detections_variant |
+| n_BA-2 | Integer | Number of detections reported of the sublineage Omicron variant (BA.2) |
+| percent_BA-1 | Float | 100 x n_BA-2/number_detections_variant |
+
+
 
 
 ## Getting the data
 
-**Direct download (CSV)**: https://raw.githubusercontent.com/fbranda/INFN-ISS/main/Report_ISS/Varianti/Flash_survey/data_variants_per_region.csv 
+**Direct download (CSV)**: https://raw.githubusercontent.com/fbranda/INFN-ISS/main/Report_ISS/Varianti/Bollettino/data_variants.csv 
 
 **Python** (requires `pandas`):
 ```python
 import pandas as pd
-df = pd.read_csv("https://raw.githubusercontent.com/fbranda/INFN-ISS/main/Report_ISS/Varianti/Flash_survey/data_variants_per_region.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/fbranda/INFN-ISS/main/Report_ISS/Varianti/Bollettino/data_variants.csv")
 ```
 
 **R** (requires `httr`):
 ```r
 library(httr)
-df <- read.csv(text=content(GET("https://raw.githubusercontent.com/fbranda/INFN-ISS/main/Report_ISS/Varianti/Flash_survey/data_variants_per_region.csv")))
+df <- read.csv(text=content(GET("https://raw.githubusercontent.com/fbranda/INFN-ISS/main/Report_ISS/Varianti/Bollettino/data_variants.csv")))
 ```
 
 ## Contributions
@@ -45,3 +57,4 @@ df <- read.csv(text=content(GET("https://raw.githubusercontent.com/fbranda/INFN-
 
 This repository and data exports are published under the CC BY 4.0 license.
 
+If you use this file, please cite it as described in *CITATION.cff* file.
