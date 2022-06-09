@@ -30,24 +30,36 @@ variant |
 | percent_BA-1 | Float | 100 x n_BA-1/number_detections_variant |
 | n_BA-2 | Integer | Number of detections reported of the sublineage Omicron variant (BA.2) |
 | percent_BA-1 | Float | 100 x n_BA-2/number_detections_variant |
+| n_BA-3 | Integer | Number of detections reported of the sublineage Omicron variant (BA.3) |
+| percent_BA-1 | Float | 100 x n_BA-3/number_detections_variant |
+| n_XJ | Integer | Number of detections reported of the sublineage Omicron variant (XJ) |
+| percent_XJ | Float | 100 x n_XJ/number_detections_variant |
+| n_XL | Integer | Number of detections reported of the sublineage Omicron variant (XL) |
+| percent_XL | Float | 100 x n_XL/number_detections_variant |
+| n_P-2 | Integer | Number of detections reported of the Zeta variant (P.2) |
+| percent_P-2 | Float | 100 x n_P-2-/number_detections_variant |
+| n_B-1-525 | Integer | Number of detections reported of the Eta variant (B.1.525) |
+| percent_B-1-525 | Float | 100 x n_B-1-525/number_detections_variant |
+| n_B-1-525 | Integer | Number of detections reported of the Eta variant (B.1.525) |
+| percent_B-1-525 | Float | 100 x n_B-1-525/number_detections_variant |
 
 
 
 
 ## Getting the data
 
-**Direct download (CSV)**: https://raw.githubusercontent.com/fbranda/INFN-ISS/main/Report_ISS/Varianti/Bollettino/data_variants.csv 
+**Direct download (CSV)**: https://raw.githubusercontent.com/fbranda/INFN-ISS/main/Report_ISS/Varianti/Flash_survey/data_variants_per_region.csv 
 
 **Python** (requires `pandas`):
 ```python
 import pandas as pd
-df = pd.read_csv("https://raw.githubusercontent.com/fbranda/INFN-ISS/main/Report_ISS/Varianti/Bollettino/data_variants.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/fbranda/INFN-ISS/main/Report_ISS/Varianti/Flash_survey/data_variants_per_region.csv ")
 ```
 
 **R** (requires `httr`):
 ```r
 library(httr)
-df <- read.csv(text=content(GET("https://raw.githubusercontent.com/fbranda/INFN-ISS/main/Report_ISS/Varianti/Bollettino/data_variants.csv")))
+df <- read.csv(text=content(GET("https://raw.githubusercontent.com/fbranda/INFN-ISS/main/Report_ISS/Varianti/Flash_survey/data_variants_per_region.csv ")))
 ```
 
 ## Contributions
