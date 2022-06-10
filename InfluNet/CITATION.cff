@@ -1,0 +1,10 @@
+cff-version: 1.0.0
+message: "If you use this file, please cite it as below."
+authors:
+- family-names: "Branda"
+  given-names: "Francesco"
+  orcid: "https://orcid.org/0000-0002-9485-38770"
+title: "Flu Seasons in Italy"
+version: 1.0.0
+date-released: 2021-05-09
+url: "https://github.com/fbranda/INFN-ISS/tree/main/InfluNet"
