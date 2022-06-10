@@ -56,7 +56,7 @@ df <- read.csv(text=content(GET("https://raw.githubusercontent.com/fbranda/INFN-
 ```
 
 ## Contributions
-1) Automatic report
+1) Automatic report at link https://fbranda.github.io/INFN-ISS/
 
 
 ## License and attribution
