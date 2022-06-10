@@ -10,7 +10,7 @@ This repository contains data extracted from the [Italian National Institute of 
 | Column      | DataType | Description     |
 | :---        |    :----:   |          ---: |
 | flu_season      | String       | Flu season reference period  |
-| year_week     |  String       | Bulletin reference date `DD/MM/YYYY`   |
+| year_week     |  String       | Bulletin reference week   |
 | number_healthcare_workers   | Integer | Number of cases reported by the healthcare workers  |
 | number_cases  | Integer | Weekly number of new confirmed cases  |
 | pop | Integer | Reference population |
