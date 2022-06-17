@@ -29,13 +29,21 @@ variant |
 | n_BA-1 | Integer | Number of detections reported of the sublineage Omicron variant (BA.1) |
 | percent_BA-1 | Float | 100 x n_BA-1/number_detections_variant |
 | n_BA-2 | Integer | Number of detections reported of the sublineage Omicron variant (BA.2) |
-| percent_BA-1 | Float | 100 x n_BA-2/number_detections_variant |
+| percent_BA-2 | Float | 100 x n_BA-2/number_detections_variant |
 | n_BA-3 | Integer | Number of detections reported of the sublineage Omicron variant (BA.3) |
-| percent_BA-1 | Float | 100 x n_BA-3/number_detections_variant |
+| percent_BA-3 | Float | 100 x n_BA-3/number_detections_variant |
+| n_BA-4 | Integer | Number of detections reported of the sublineage Omicron variant (BA.4) |
+| percent_BA-4 | Float | 100 x n_BA-4/number_detections_variant |
+| n_BA-5 | Integer | Number of detections reported of the sublineage Omicron variant (BA.5) |
+| percent_BA-5 | Float | 100 x n_BA-5/number_detections_variant |
 | n_XJ | Integer | Number of detections reported of the sublineage Omicron variant (XJ) |
 | percent_XJ | Float | 100 x n_XJ/number_detections_variant |
 | n_XL | Integer | Number of detections reported of the sublineage Omicron variant (XL) |
 | percent_XL | Float | 100 x n_XL/number_detections_variant |
+| n_XM | Integer | Number of detections reported of the sublineage Omicron variant (XM) |
+| percent_XM | Float | 100 x n_XM/number_detections_variant |
+| n_XT | Integer | Number of detections reported of the sublineage Omicron variant (XT) |
+| percent_XT | Float | 100 x n_XT/number_detections_variant |
 | n_P-2 | Integer | Number of detections reported of the Zeta variant (P.2) |
 | percent_P-2 | Float | 100 x n_P-2-/number_detections_variant |
 | n_B-1-525 | Integer | Number of detections reported of the Eta variant (B.1.525) |
