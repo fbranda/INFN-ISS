@@ -52,7 +52,7 @@ df = pd.read_csv("https://raw.githubusercontent.com/fbranda/INFN-ISS/main/InfluN
 **R** (requires `httr`):
 ```r
 library(httr)
-df <- read.csv(text=content(GET("https://raw.githubusercontent.com/fbranda/INFN-ISS/main/Report_ISS/InfluNet/flu_Italy.csv")))
+df <- read.csv(text=content(GET("https://raw.githubusercontent.com/fbranda/INFN-ISS/main/InfluNet/flu_Italy.csv")))
 ```
 
 ## Contributions
