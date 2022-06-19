@@ -41,6 +41,7 @@ df <- read.csv(text=content(GET("https://raw.githubusercontent.com/fbranda/INFN-
 ```
 
 ## Contributions
+1) Spread investigation of SARS-CoV-2 variants of concern (VOCs). Available at the link https://trackingvariants.shinyapps.io/europe/
 
 
 ## License and attribution
