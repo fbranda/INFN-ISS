@@ -1,0 +1,4 @@
+"data","numero_centri","pazienti_ricoverati","positivi_su_totale_ricoverati","positivi_con_sintomatologia_grave_su_totale_positivi","positivi_con_sintomatologia_grave_su_totale_ricoverati","pazienti_con_supporto_respiratorio_invasivo_su_totale_positivi","eta_mediana_positivi"
+"28/06/22",157,1251,167,59,59,"-","69 (60-75)"
+"05/07/22",167,1381,187,70,70,"31","70 (60-76)"
+"13/07/22",155,1252,211,88,88,"57","70 (62-78)"
