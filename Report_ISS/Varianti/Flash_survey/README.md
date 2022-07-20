@@ -42,6 +42,8 @@ variant |
 | percent_XL | Float | 100 x n_XL/number_detections_variant |
 | n_XM | Integer | Number of detections reported of the sublineage Omicron variant (XM) |
 | percent_XM | Float | 100 x n_XM/number_detections_variant |
+| n_XN | Integer | Number of detections reported of the sublineage Omicron variant (XN) |
+| percent_XN | Float | 100 x n_XN/number_detections_variant |
 | n_XT | Integer | Number of detections reported of the sublineage Omicron variant (XT) |
 | percent_XT | Float | 100 x n_XT/number_detections_variant |
 | n_P-2 | Integer | Number of detections reported of the Zeta variant (P.2) |
