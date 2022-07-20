@@ -1,0 +1,375 @@
+"data","regione","macroarea","casi_notificati","percentuale_casi_notificati","ampiezza_campionaria"
+"16/03/21","Abruzzo","Sud",212,4.1,18
+"16/03/21","Basilicata","Sud",166,3.2,14
+"16/03/21","Calabria","Sud",311,6,26
+"16/03/21","Campania","Sud",2656,51.4,216
+"16/03/21","Emilia-Romagna","Nord-Est",2184,42.6,179
+"16/03/21","Friuli Venezia Giulia","Nord-Est",672,13.1,55
+"16/03/21","Lazio","Centro",1497,43.6,176
+"16/03/21","Liguria","Nord-Ovest",343,5.1,22
+"16/03/21","Lombardia","Nord-Ovest",4235,63.4,272
+"16/03/21","Marche","Centro",529,15.4,63
+"16/03/21","Molise","Sud",18,0.3,2
+"16/03/21","P.A. Bolzano","Nord-Est",175,3.4,15
+"16/03/21","P.A. Trento","Nord-Est",190,3.7,16
+"16/03/21","Piemonte","Nord-Ovest",2074,31.1,133
+"16/03/21","Puglia","Sud",1126,21.8,92
+"16/03/21","Sardegna","Isole",79,1.5,7
+"16/03/21","Sicilia","Isole",598,11.6,49
+"16/03/21","Toscana","Centro",1247,36.3,147
+"16/03/21","Umbria","Centro",159,4.6,19
+"16/03/21","Valle d'Aosta","Nord-Ovest",24,0.4,2
+"16/03/21","Veneto","Nord-Est",1901,37.1,156
+"16/03/21","TOTALE",0,20396,0,1679
+"15/04/21","Abruzzo","Sud",215,3.1,14
+"15/04/21","Basilicata","Sud",217,3.2,14
+"15/04/21","Calabria","Sud",560,8.2,35
+"15/04/21","Campania","Sud",2224,32.4,139
+"15/04/21","Emilia-Romagna","Nord-Est",1150,43.3,169
+"15/04/21","Friuli Venezia Giulia","Nord-Est",267,10,40
+"15/04/21","Lazio","Centro",1330,44.7,177
+"15/04/21","Liguria","Nord-Ovest",407,9.1,38
+"15/04/21","Lombardia","Nord-Ovest",2722,60.9,253
+"15/04/21","Marche","Centro",326,10.9,44
+"15/04/21","Molise","Sud",59,0.9,4
+"15/04/21","P.A. Bolzano","Nord-Est",39,1.5,6
+"15/04/21","P.A. Trento","Nord-Est",117,4.4,18
+"15/04/21","Piemonte","Nord-Ovest",1264,28.3,118
+"15/04/21","Puglia","Sud",1867,27.2,117
+"15/04/21","Sardegna","Isole",279,4.1,18
+"15/04/21","Sicilia","Isole",1450,21.1,91
+"15/04/21","Toscana","Centro",1206,40.5,161
+"15/04/21","Umbria","Centro",116,3.9,16
+"15/04/21","Valle d'Aosta","Nord-Ovest",74,1.7,7
+"15/04/21","Veneto","Nord-Est",1085,40.8,160
+"15/04/21","TOTALE",0,16974,0,1639
+"13/05/21","Abruzzo","Sud",89,3,13
+"13/05/21","Basilicata","Sud",91,3,13
+"13/05/21","Calabria","Sud",327,11,46
+"13/05/21","Campania","Sud",1110,39,154
+"13/05/21","Emilia-Romagna","Nord-Est",618,47,161
+"13/05/21","Friuli Venezia Giulia","Nord-Est",100,8,26
+"13/05/21","Lazio","Centro",654,39,141
+"13/05/21","Liguria","Nord-Ovest",115,5,20
+"13/05/21","Lombardia","Nord-Ovest",1396,62,237
+"13/05/21","Marche","Centro",233,14,50
+"13/05/21","Molise","Sud",12,0,2
+"13/05/21","P.A. Bolzano","Nord-Est",65,5,17
+"13/05/21","P.A. Trento","Nord-Est",53,4,14
+"13/05/21","Piemonte","Nord-Ovest",706,31,120
+"13/05/21","Puglia","Sud",554,19,77
+"13/05/21","Sardegna","Isole",72,3,10
+"13/05/21","Sicilia","Isole",603,21,84
+"13/05/21","Toscana","Centro",651,39,140
+"13/05/21","Umbria","Centro",139,8,30
+"13/05/21","Valle d'Aosta","Nord-Ovest",29,1,5
+"13/05/21","Veneto","Nord-Est",468,36,22
+"13/05/21","TOTALE",0,8085,0,1482
+"16/06/21","Abruzzo","Sud",27,5,12
+"16/06/21","Basilicata","Sud",16,3,8
+"16/06/21","Calabria","Sud",66,11,30
+"16/06/21","Campania","Sud",167,29,74
+"16/06/21","Emilia-Romagna","Nord-Est",73,38,52
+"16/06/21","Friuli Venezia Giulia","Nord-Est",23,12,17
+"16/06/21","Lazio","Centro",143,49,88
+"16/06/21","Liguria","Nord-Ovest",21,6,13
+"16/06/21","Lombardia","Nord-Ovest",256,76,149
+"16/06/21","Marche","Centro",29,10,18
+"16/06/21","Molise","Sud",1,0,1
+"16/06/21","P.A. Bolzano","Nord-Est",8,4,6
+"16/06/21","P.A. Trento","Nord-Est",4,2,3
+"16/06/21","Piemonte","Nord-Ovest",59,18,35
+"16/06/21","Puglia","Sud",112,19,50
+"16/06/21","Sardegna","Isole",24,4,11
+"16/06/21","Sicilia","Isole",168,29,75
+"16/06/21","Toscana","Centro",106,37,66
+"16/06/21","Umbria","Centro",12,4,8
+"16/06/21","Valle d'Aosta","Nord-Ovest",1,0,1
+"16/06/21","Veneto","Nord-Est",84,44,60
+"16/06/21","TOTALE",0,1400,0,777
+"15/07/21","Abruzzo","Sud",50,6,18
+"15/07/21","Basilicata","Sud",5,1,2
+"15/07/21","Calabria","Sud",32,4,12
+"15/07/21","Campania","Sud",234,28,83
+"15/07/21","Emilia-Romagna","Nord-Est",167,30,76
+"15/07/21","Friuli Venezia Giulia","Nord-Est",21,4,10
+"15/07/21","Lazio","Centro",353,60,155
+"15/07/21","Liguria","Nord-Ovest",31,6,16
+"15/07/21","Lombardia","Nord-Ovest",381,79,187
+"15/07/21","Marche","Centro",40,7,18
+"15/07/21","Molise","Sud",10,1,4
+"15/07/21","P.A. Bolzano","Nord-Est",22,4,10
+"15/07/21","P.A. Trento","Nord-Est",23,4,11
+"15/07/21","Piemonte","Nord-Ovest",68,14,34
+"15/07/21","Puglia","Sud",42,5,15
+"15/07/21","Sardegna","Isole",112,13,40
+"15/07/21","Sicilia","Isole",353,42,125
+"15/07/21","Toscana","Centro",173,30,76
+"15/07/21","Umbria","Centro",20,3,9
+"15/07/21","Valle d'Aosta","Nord-Ovest",0,0,0
+"15/07/21","Veneto","Nord-Est",318,58,145
+"15/07/21","TOTALE",0,2455,0,1046
+"19/08/21","Abruzzo","Sud",154,5,20
+"19/08/21","Basilicata","Sud",68,2,9
+"19/08/21","Calabria","Sud",231,7,30
+"19/08/21","Campania","Sud",647,20,82
+"19/08/21","Emilia-Romagna","Nord-Est",576,44,151
+"19/08/21","Friuli Venezia Giulia","Nord-Est",68,5,18
+"19/08/21","Lazio","Centro",548,32,117
+"19/08/21","Liguria","Nord-Ovest",212,19,63
+"19/08/21","Lombardia","Nord-Ovest",627,57,185
+"19/08/21","Marche","Centro",208,12,45
+"19/08/21","Molise","Sud",12,0,2
+"19/08/21","P.A. Bolzano","Nord-Est",30,2,8
+"19/08/21","P.A. Trento","Nord-Est",33,3,9
+"19/08/21","Piemonte","Nord-Ovest",254,23,75
+"19/08/21","Puglia","Sud",217,7,28
+"19/08/21","Sardegna","Isole",451,14,58
+"19/08/21","Sicilia","Isole",1377,44,175
+"19/08/21","Toscana","Centro",844,50,179
+"19/08/21","Umbria","Centro",104,6,23
+"19/08/21","Valle d'Aosta","Nord-Ovest",11,1,4
+"19/08/21","Veneto","Nord-Est",588,45,154
+"19/08/21","TOTALE",0,7260,0,1435
+"23/09/21","Abruzzo","Sud",57,4,14
+"23/09/21","Basilicata","Sud",38,3,9
+"23/09/21","Calabria","Sud",178,12,42
+"23/09/21","Campania","Sud",419,28,98
+"23/09/21","Emilia-Romagna","Nord-Est",332,36,111
+"23/09/21","Friuli Venezia Giulia","Nord-Est",68,7,23
+"23/09/21","Lazio","Centro",372,44,131
+"23/09/21","Liguria","Nord-Ovest",87,11,33
+"23/09/21","Lombardia","Nord-Ovest",443,57,164
+"23/09/21","Marche","Centro",87,10,31
+"23/09/21","Molise","Sud",5,0,2
+"23/09/21","P.A. Bolzano","Nord-Est",37,4,13
+"23/09/21","P.A. Trento","Nord-Est",36,4,12
+"23/09/21","Piemonte","Nord-Ovest",242,31,90
+"23/09/21","Puglia","Sud",138,9,32
+"23/09/21","Sardegna","Isole",34,2,8
+"23/09/21","Sicilia","Isole",647,43,150
+"23/09/21","Toscana","Centro",304,36,107
+"23/09/21","Umbria","Centro",86,10,31
+"23/09/21","Valle d'Aosta","Nord-Ovest",6,1,3
+"23/09/21","Veneto","Nord-Est",445,48,148
+"23/09/21","TOTALE",0,4061,0,1252
+"01/12/21","Abruzzo","Sud",243,8.3,33
+"01/12/21","Basilicata","Sud",46,1.6,7
+"01/12/21","Calabria","Sud",286,9.8,39
+"01/12/21","Campania","Sud",1087,37.1,147
+"01/12/21","Emilia-Romagna","Nord-Est",1117,20.7,88
+"01/12/21","Friuli Venezia Giulia","Nord-Est",746,13.9,59
+"01/12/21","Lazio","Centro",1638,58.8,231
+"01/12/21","Liguria","Nord-Ovest",549,13.8,57
+"01/12/21","Lombardia","Nord-Ovest",2503,62.8,258
+"01/12/21","Marche","Centro",475,17,67
+"01/12/21","Molise","Sud",27,0.9,4
+"01/12/21","P.A. Bolzano","Nord-Est",677,12.6,53
+"01/12/21","P.A. Trento","Nord-Est",188,3.5,15
+"01/12/21","Piemonte","Nord-Ovest",902,22.6,93
+"01/12/21","Puglia","Sud",367,12.5,50
+"01/12/21","Sardegna","Isole",145,4.9,20
+"01/12/21","Sicilia","Isole",729,24.9,99
+"01/12/21","Toscana","Centro",559,20.1,79
+"01/12/21","Umbria","Centro",116,4.2,17
+"01/12/21","Valle d'Aosta","Nord-Ovest",29,0.7,3
+"01/12/21","Veneto","Nord-Est",2656,49.3,208
+"01/12/21","TOTALE",0,15085,0,1627
+"16/12/21","Abruzzo","Sud",506,9.1,39
+"16/12/21","Basilicata","Sud",125,2.2,10
+"16/12/21","Calabria","Sud",929,16.7,71
+"16/12/21","Campania","Sud",1770,31.7,134
+"16/12/21","Emilia-Romagna","Nord-Est",2077,29.3,126
+"16/12/21","Friuli Venezia Giulia","Nord-Est",914,12.9,56
+"16/12/21","Lazio","Centro",2652,54.3,227
+"16/12/21","Liguria","Nord-Ovest",1011,11.8,52
+"16/12/21","Lombardia","Nord-Ovest",5304,61.9,269
+"16/12/21","Marche","Centro",753,15.4,65
+"16/12/21","Molise","Sud",10,0.2,1
+"16/12/21","P.A. Bolzano","Nord-Est",442,6.2,27
+"16/12/21","P.A. Trento","Nord-Est",266,3.8,17
+"16/12/21","Piemonte","Nord-Ovest",2197,25.7,112
+"16/12/21","Puglia","Sud",596,10.7,46
+"16/12/21","Sardegna","Isole",294,5.3,23
+"16/12/21","Sicilia","Isole",1346,24.1,102
+"16/12/21","Toscana","Centro",1222,25,105
+"16/12/21","Umbria","Centro",260,5.3,23
+"16/12/21","Valle d'Aosta","Nord-Ovest",52,0.6,3
+"16/12/21","Veneto","Nord-Est",3383,47.8,205
+"16/12/21","TOTALE",0,26109,0,1713
+"29/12/21","Abruzzo","Sud",921,4.5,21
+"29/12/21","Basilicata","Sud",464,2.3,11
+"29/12/21","Calabria","Sud",1590,7.8,35
+"29/12/21","Campania","Sud",9802,48.2,216
+"29/12/21","Emilia-Romagna","Nord-Est",4134,25.8,115
+"29/12/21","Friuli Venezia Giulia","Nord-Est",1817,11.3,51
+"29/12/21","Lazio","Centro",5238,30.1,134
+"29/12/21","Liguria","Nord-Ovest",1634,3.7,17
+"29/12/21","Lombardia","Nord-Ovest",32696,73.9,335
+"29/12/21","Marche","Centro",1707,9.8,44
+"29/12/21","Molise","Sud",159,0.8,4
+"29/12/21","P.A. Bolzano","Nord-Est",494,3.1,14
+"29/12/21","P.A. Trento","Nord-Est",938,5.8,26
+"29/12/21","Piemonte","Nord-Ovest",9671,21.9,99
+"29/12/21","Puglia","Sud",2885,14.2,64
+"29/12/21","Sardegna","Isole",771,3.8,17
+"29/12/21","Sicilia","Isole",3729,18.4,83
+"29/12/21","Toscana","Centro",7304,41.9,187
+"29/12/21","Umbria","Centro",3171,18.2,82
+"29/12/21","Valle d'Aosta","Nord-Ovest",229,0.5,3
+"29/12/21","Veneto","Nord-Est",8666,54,240
+"29/12/21","TOTALE",0,98020,0,1798
+"13/01/22","Abruzzo","Sud",3610,7.4,34
+"13/01/22","Basilicata","Sud",965,2,9
+"13/01/22","Calabria","Sud",3207,6.6,30
+"13/01/22","Campania","Sud",24451,50.1,227
+"13/01/22","Emilia-Romagna","Nord-Est",20648,43.3,196
+"13/01/22","Friuli Venezia Giulia","Nord-Est",4039,8.5,39
+"13/01/22","Lazio","Centro",10272,37.4,169
+"13/01/22","Liguria","Nord-Ovest",5692,9.4,43
+"13/01/22","Lombardia","Nord-Ovest",39683,65.4,297
+"13/01/22","Marche","Centro",1955,7.1,32
+"13/01/22","Molise","Sud",727,1.5,7
+"13/01/22","P.A. Bolzano","Nord-Est",2651,5.6,26
+"13/01/22","P.A. Trento","Nord-Est",2357,4.9,23
+"13/01/22","Piemonte","Nord-Ovest",14741,24.3,111
+"13/01/22","Puglia","Sud",3218,6.6,30
+"13/01/22","Sardegna","Isole",1296,2.7,12
+"13/01/22","Sicilia","Isole",11354,23.3,106
+"13/01/22","Toscana","Centro",13151,47.9,216
+"13/01/22","Umbria","Centro",2068,7.5,34
+"13/01/22","Valle d'Aosta","Nord-Ovest",574,0.9,5
+"13/01/22","Veneto","Nord-Est",17956,37.7,171
+"13/01/22","TOTALE",0,184615,0,1817
+"26/01/22","Abruzzo","Sud",3551,9.5,43
+"26/01/22","Basilicata","Sud",1000,2.7,13
+"26/01/22","Calabria","Sud",1569,4.2,19
+"26/01/22","Campania","Sud",12854,34.2,155
+"26/01/22","Emilia-Romagna","Nord-Est",19028,39.9,181
+"26/01/22","Friuli Venezia Giulia","Nord-Est",4104,8.6,39
+"26/01/22","Lazio","Centro",14987,44.2,200
+"26/01/22","Liguria","Nord-Ovest",5708,11.9,54
+"26/01/22","Lombardia","Nord-Ovest",27808,57.8,262
+"26/01/22","Marche","Centro",6196,18.3,83
+"26/01/22","Molise","Sud",457,1.2,6
+"26/01/22","P.A. Bolzano","Nord-Est",2573,5.4,25
+"26/01/22","P.A. Trento","Nord-Est",2138,4.5,21
+"26/01/22","Piemonte","Nord-Ovest",14207,29.5,134
+"26/01/22","Puglia","Sud",8759,23.3,106
+"26/01/22","Sardegna","Isole",1461,3.9,18
+"26/01/22","Sicilia","Isole",7917,21.1,96
+"26/01/22","Toscana","Centro",10535,31.1,141
+"26/01/22","Umbria","Centro",2156,6.4,29
+"26/01/22","Valle d'Aosta","Nord-Ovest",378,0.8,4
+"26/01/22","Veneto","Nord-Est",19820,41.6,188
+"26/01/22","TOTALE",0,167206,0,1817
+"02/03/22","Abruzzo","Sud",1085,7.3,33
+"02/03/22","Basilicata","Sud",399,2.7,12
+"02/03/22","Calabria","Sud",1566,10.5,47
+"02/03/22","Campania","Sud",3650,24.4,109
+"02/03/22","Emilia-Romagna","Nord-Est",2421,34.3,148
+"02/03/22","Friuli Venezia Giulia","Nord-Est",585,8.3,36
+"02/03/22","Lazio","Centro",2312,34.4,148
+"02/03/22","Liguria","Nord-Ovest",985,12.8,56
+"02/03/22","Lombardia","Nord-Ovest",4713,61.2,264
+"02/03/22","Marche","Centro",1092,16.2,70
+"02/03/22","Molise","Sud",320,2.1,10
+"02/03/22","P.A. Bolzano","Nord-Est",377,5.3,23
+"02/03/22","P.A. Trento","Nord-Est",244,3.5,15
+"02/03/22","Piemonte","Nord-Ovest",1961,25.5,110
+"02/03/22","Puglia","Sud",3302,22.1,98
+"02/03/22","Sardegna","Isole",1172,7.8,35
+"02/03/22","Sicilia","Isole",3450,23.1,103
+"02/03/22","Toscana","Centro",2413,35.9,154
+"02/03/22","Umbria","Centro",908,13.5,58
+"02/03/22","Valle d'Aosta","Nord-Ovest",40,0.5,3
+"02/03/22","Veneto","Nord-Est",3434,48.6,209
+"02/03/22","TOTALE",0,36429,0,1741
+"31/03/22","Abruzzo","Sud",2330,9,40
+"31/03/22","Basilicata","Sud",674,3,12
+"31/03/22","Calabria","Sud",1933,7,33
+"31/03/22","Campania","Sud",8393,32,143
+"31/03/22","Emilia-Romagna","Nord-Est",4620,32,143
+"31/03/22","Friuli Venezia Giulia","Nord-Est",1004,7,31
+"31/03/22","Lazio","Centro",9256,50,225
+"31/03/22","Liguria","Nord-Ovest",1524,11,49
+"31/03/22","Lombardia","Nord-Ovest",9141,65,289
+"31/03/22","Marche","Centro",2349,13,57
+"31/03/22","Molise","Sud",420,2,8
+"31/03/22","P.A. Bolzano","Nord-Est",617,4,19
+"31/03/22","P.A. Trento","Nord-Est",444,3,14
+"31/03/22","Piemonte","Nord-Ovest",3255,23,103
+"31/03/22","Puglia","Sud",7129,27,122
+"31/03/22","Sardegna","Isole",1594,6,28
+"31/03/22","Sicilia","Isole",3909,15,67
+"31/03/22","Toscana","Centro",5305,29,129
+"31/03/22","Umbria","Centro",1517,8,37
+"31/03/22","Valle d'Aosta","Nord-Ovest",61,0,2
+"31/03/22","Veneto","Nord-Est",7720,54,238
+"31/03/22","TOTALE",0,73195,0,1789
+"28/04/22","Abruzzo","Sud",5385,20.3,92
+"28/04/22","Basilicata","Sud",785,3,14
+"28/04/22","Calabria","Sud",2063,7.8,35
+"28/04/22","Campania","Sud",7313,27.6,124
+"28/04/22","Emilia-Romagna","Nord-Est",6011,39.8,177
+"28/04/22","Friuli Venezia Giulia","Nord-Est",1303,8.6,39
+"28/04/22","Lazio","Centro",6351,46.3,205
+"28/04/22","Liguria","Nord-Ovest",1433,10.3,46
+"28/04/22","Lombardia","Nord-Ovest",8634,62.2,276
+"28/04/22","Marche","Centro",1963,14.3,64
+"28/04/22","Molise","Sud",549,2.1,10
+"28/04/22","P.A. Bolzano","Nord-Est",380,2.5,12
+"28/04/22","P.A. Trento","Nord-Est",459,3,14
+"28/04/22","Piemonte","Nord-Ovest",3718,26.8,119
+"28/04/22","Puglia","Sud",4293,16.2,73
+"28/04/22","Sardegna","Isole",2028,7.6,35
+"28/04/22","Sicilia","Isole",4106,15.5,70
+"28/04/22","Toscana","Centro",3763,27.5,122
+"28/04/22","Umbria","Centro",1628,11.9,53
+"28/04/22","Valle d'Aosta","Nord-Ovest",91,0.7,3
+"28/04/22","Veneto","Nord-Est",6948,46,204
+"28/04/22","TOTALE",0,69204,0,1787
+"31/05/22","Abruzzo","Sud",644,6.5,29
+"31/05/22","Basilicata","Sud",223,2.2,10
+"31/05/22","Calabria","Sud",833,8.4,37
+"31/05/22","Campania","Sud",2749,27.7,122
+"31/05/22","Emilia-Romagna","Nord-Est",898,25.5,104
+"31/05/22","Friuli Venezia Giulia","Nord-Est",387,11,45
+"31/05/22","Lazio","Centro",3218,57.5,243
+"31/05/22","Liguria","Nord-Ovest",565,10.8,46
+"31/05/22","Lombardia","Nord-Ovest",3290,62.9,265
+"31/05/22","Marche","Centro",547,9.8,42
+"31/05/22","Molise","Sud",4,0,1
+"31/05/22","P.A. Bolzano","Nord-Est",278,7.9,32
+"31/05/22","P.A. Trento","Nord-Est",124,3.5,15
+"31/05/22","Piemonte","Nord-Ovest",1310,25.1,106
+"31/05/22","Puglia","Sud",1756,17.7,78
+"31/05/22","Sardegna","Isole",1004,10.1,45
+"31/05/22","Sicilia","Isole",2711,27.3,120
+"31/05/22","Toscana","Centro",1430,25.6,108
+"31/05/22","Umbria","Centro",397,7.1,30
+"31/05/22","Valle d'Aosta","Nord-Ovest",62,1.2,5
+"31/05/22","Veneto","Nord-Est",1837,52.1,212
+"31/05/22","TOTALE",0,24267,0,1695
+"30/06/22","Abruzzo","Sud",2309,8,35
+"30/06/22","Basilicata","Sud",693,2,11
+"30/06/22","Calabria","Sud",1990,7,30
+"30/06/22","Campania","Sud",9946,33,149
+"30/06/22","Emilia-Romagna","Nord-Est",6384,35,158
+"30/06/22","Friuli Venezia Giulia","Nord-Est",1928,11,48
+"30/06/22","Lazio","Centro",7756,47,208
+"30/06/22","Liguria","Nord-Ovest",1860,10,45
+"30/06/22","Lombardia","Nord-Ovest",12082,65,290
+"30/06/22","Marche","Centro",2177,13,59
+"30/06/22","Molise","Sud",345,1,6
+"30/06/22","P.A. Bolzano","Nord-Est",630,3,16
+"30/06/22","P.A. Trento","Nord-Est",565,3,14
+"30/06/22","Piemonte","Nord-Ovest",4563,25,110
+"30/06/22","Puglia","Sud",5314,18,80
+"30/06/22","Sardegna","Isole",2733,9,41
+"30/06/22","Sicilia","Isole",6723,22,101
+"30/06/22","Toscana","Centro",5068,31,136
+"30/06/22","Umbria","Centro",1560,9,42
+"30/06/22","Valle d'Aosta","Nord-Ovest",91,0,3
+"30/06/22","Veneto","Nord-Est",8557,47,211
+"30/06/22","TOTALE",0,83274,0,1793
