@@ -1,1 +1,1 @@
-<img src="http://i.stack.imgur.com/SBv4T.gif" alt="this slowpoke moves"  width="250" />
+<iframe src="https://giphy.com/embed/J19OSJKmqCyP7Mfjt1" width="480" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/SelectShopPL-new-collection-selectshop-J19OSJKmqCyP7Mfjt1">via GIPHY</a></p>
